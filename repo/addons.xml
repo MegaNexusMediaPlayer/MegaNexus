@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.meganexus" name="MegaNexus Hub" version="7.0.32" provider-name="MegaNexus">
+<addon id="plugin.video.meganexus" name="MegaNexus Hub" version="7.0.33" provider-name="MegaNexus">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="xbmc.gui" version="5.17.0" />
@@ -17,17 +17,17 @@
     <summary lang="en_GB">MegaNexus Hub: the backend and the complete MegaNexus installer.</summary>
     <description lang="en_GB">Backend for the MegaNexus interface and skin. Metadata add-ons supply catalog metadata; individually enabled stream add-ons supply sources in their original order. Includes local component installation, account sync, Continue Watching and playback services. Manual bundle ZIP updates only.</description>
     <disclaimer lang="en_GB">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
-    <news>MegaNexus 7.0.32 Beta: collections open in their own screen over Home and appear at once - Back finds Home exactly as it was; backgrounds and title logos prepared like the posters; a new Artwork provider is prepared when you leave Settings; Clear cache also removes Kodi's copies; no preparation screen on every start; black instead of a blink when you leave a film with refresh-rate switching. 7.0.31: faster opening with many collections, every title opens.</news>
+    <news>MegaNexus 7.0.33 Beta: IPTV like Sport (enlarge in place, channels with catch-up beside them, Back keeps the channel), release badges on every title (Released, In cinemas, Coming Friday), Digital release filter and Hide unreleased titles, Library and watched marks in the background, one smooth screensaver darkening and a Dim option. 7.0.32: collections in their own screen over Home.</news>
     <assets>
       <icon>resources/media/meganexus_icon.png</icon>
       <fanart>resources/media/meganexus_fanart.png</fanart>
     </assets>
   </extension>
 </addon>
-<addon id="script.meganexus" name="MegaNexus" version="7.0.32" provider-name="MegaNexus">
+<addon id="script.meganexus" name="MegaNexus" version="7.0.33" provider-name="MegaNexus">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
-    <import addon="plugin.video.meganexus" version="7.0.32" />
+    <import addon="plugin.video.meganexus" version="7.0.33" />
   </requires>
   <extension point="xbmc.python.script" library="default.py">
     <provides>executable</provides>
@@ -44,10 +44,10 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.meganexus" version="7.0.32" name="MegaNexus Skin" provider-name="MegaNexus; Kodi foundation by Team Kodi">
+<addon id="skin.meganexus" version="7.0.33" name="MegaNexus Skin" provider-name="MegaNexus; Kodi foundation by Team Kodi">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
-    <import addon="script.meganexus" version="7.0.32" />
+    <import addon="script.meganexus" version="7.0.33" />
   </requires>
   <extension point="xbmc.gui.skin" debugging="false">
     <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
@@ -63,10 +63,10 @@
     </assets>
   </extension>
 </addon>
-<addon id="screensaver.meganexus" name="MegaNexus Screensaver" version="7.0.32" provider-name="MegaNexus">
+<addon id="screensaver.meganexus" name="MegaNexus Screensaver" version="7.0.33" provider-name="MegaNexus">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
-    <import addon="script.meganexus" version="7.0.32" />
+    <import addon="script.meganexus" version="7.0.33" />
   </requires>
   <extension point="xbmc.ui.screensaver" library="default.py" />
   <extension point="xbmc.addon.metadata">
