@@ -5,6 +5,7 @@ MegaNexus itself is under the [MegaNexus License](LICENSE.md). These parts keep 
 - [python-qrcode](https://github.com/lincolnloop/python-qrcode) in `plugin.video.meganexus/resources/lib/qrcode`: BSD license, see its `LICENSE` file.
 - Noto Sans (SIL Open Font License): the text of the built-in collection covers, drawn by `review/make_collection_covers.py`.
 - Google Sans, Fraunces and Oxanium (SIL Open Font License 1.1, no reserved names): reduced, renamed static instances in `skin.meganexus/fonts/ambient` (`review/make_ambient_fonts.py`), used by the MegaNexus Ambient screensaver widgets and the weather / clock corner of the MegaNexus screens; copyrights in `skin.meganexus/fonts/ambient/OFL.txt`.
+- Stream badge sets in `plugin.video.meganexus/resources/badges/sets`: MegaNexus rules that link to badge pictures hosted by their authors (not bundled; each set names its source in `sets.json`; Nebula's pictures: MIT, danielsdian/ColorfulAndConcise).
 - Subtitle flag icons in `skin.meganexus/media/windows/subtitles/flags`: MIT (GoSquared). Home images in `skin.meganexus/extras/home-images`: CC0.
 - [Kodi 21.3 Estuary](https://github.com/xbmc/xbmc/tree/21.3-Omega/addons/skin.estuary): the skin foundation, standard dialogs, fonts and OSD. Code and artwork have the licenses described in `skin.meganexus/LICENSE.txt`.
 

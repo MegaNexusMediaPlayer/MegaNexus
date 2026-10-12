@@ -52,23 +52,25 @@ accounts, servers and add-ons give you.
 - Search across all your metadata add-ons, Library, and a calendar of what you added.
 
 **⚡ Streams**
-- **TorBox direct and Premiumize direct** built in: add your key and their cached results appear next to your add-ons, no extra add-on needed.
+- **TorBox, Premiumize, Offcloud and Easynews** built in: add your key and their results appear next to your add-ons, no extra add-on needed.
 - Fast source search: the list opens with the first results and fills in as each add-on answers; every source shows the add-on it comes from, with a filter row on top.
-- Automatic stream choice that knows releases: REMUX → Blu-ray → WEB-DL, then Dolby Vision / HDR and the best audio (TrueHD Atmos, DTS-HD MA…). Autoplay moves on to the next source by itself when one does not play.
+- Automatic stream choice that knows releases: REMUX → Blu-ray → WEB-DL, then Dolby Vision / HDR and the best audio (TrueHD Atmos, DTS-HD MA…). With *No limit* it picks the best link your network can carry (measured hourly). Autoplay moves on to the next source by itself when one does not play.
+- **Stream badges** on every source, in six ready-made sets or your own Nuvio badge JSON.
 - **Downloads:** keep a film or an episode on your device or network share. Lost connection? It carries on where it stopped.
 
 **💬 Subtitles**
 - One button searches every subtitle add-on at once and lists every version.
 - **Autosync subtitle offset** lines a subtitle up with your video - see below.
+- **Skip intro / outro** and **Next episode** (as the next episode's picture, 1:30 before the end when the credits are not known) - and in the player's buttons if you closed them.
 
 **▶️ Your progress everywhere**
 - Sync with your **Nuvio** or **Stremio** account, **Trakt**, **Simkl** and **MDBList**: progress, watched marks and watchlists. One Continue Watching card per title, whatever app saved it.
 
-**📺 Live TV and Sport** - IPTV (Xtream or M3U) with guide, preview and catch-up; a Sport screen for live events.
+**📺 Live TV and Sport** - IPTV (Xtream or M3U, several lists) with guide, preview and catch-up, live channels only in Kodi's list and the films and series of your list as a source; a Sport screen for live events.
 
-**📱 Your phone as the remote's keyboard** - set everything up by scanning a QR code, and type into any on-screen keyboard from your phone.
+**📱 Your phone as the remote's keyboard** - set everything up by scanning a QR code (a Start page walks you through metadata, stream and subtitle add-ons), read the user guide, and type into any on-screen keyboard from your phone.
 
-**🎨 Make it yours** - light, dark and dim themes, your own wallpaper and colours, a Google TV-style screensaver with clock, weather and calendar.
+**🎨 Make it yours** - light, dark and dim themes, your own wallpaper with colours that follow it, *Trending now on TMDB* on the HUB and in the screensaver, a Google TV-style screensaver with clock, weather and calendar.
 
 **🖥️ Your own media** *(beta)* - Plex, Jellyfin / Emby and local drives, offered first when you play a title.
 
@@ -145,8 +147,8 @@ are not needed and can slow Kodi down. Everything comes from Stremio / Nuvio add
 
 <details><summary><b>Do I need a debrid service?</b></summary>
 
-No, but it makes streams start instantly. TorBox and Premiumize are built in (HUB Settings →
-Connections → Add-ons → TorBox & Premiumize); others work through your stream add-on's
+No, but it makes streams start instantly. TorBox, Premiumize, Offcloud and Easynews (Usenet) are built in (HUB Settings →
+Connections → Add-ons → Debrid & Usenet; keys can also be typed on the phone setup page); others work through your stream add-on's
 configure page. "Cached only" keeps the list to links that start right away.
 </details>
 

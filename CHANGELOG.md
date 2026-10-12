@@ -1,5 +1,127 @@
 # Changelog
 
+## 7.0.42 Beta
+
+**HUB**
+- 💊 **Modern pills:** MegaNexus, IPTV, Sport, HUB Settings, Kodi Settings and Power as glass pills with a soft sheen, their words bold in the interface's font - the second word in the theme's accent colour (Interface colours > Accent); the focused pill takes the focus colour and grows a little.
+- 🚪 **Leaving MegaNexus shows the finished HUB:** Home stays with the HUB button marked and our ring until the HUB has drawn itself under it (its trending picture loads and fades in) - Home used to close first, leaving the ring over a bare background.
+- 🚫 **No MegaNexus logo while Trending now on TMDB is on:** from the start and on every screen - the HUB, the opening screens, the screen behind MegaNexus, phone setup, Kodi's skin settings and the screensaver (also its animated logo); before, it flashed on the way out and into the screensaver. The opening screens keep the HUB's trending picture in the same place, so HUB → MegaNexus → HUB changes nothing but our ring.
+- 🚀 **Entering MegaNexus, Home is ready:** the opening screen stays over Home while it fills its first rows (at most 7 seconds, Back skips) - cards no longer jump and vanish under the cursor - and the marker is on Home.
+- 🔥 **Trending now on TMDB:** a large picture (35 % larger since the first test build, on the HUB and in the screensaver alike, its logo and lines on the picture's soft left edge) above the tiles - not the whole screen, its edges melting into the background - with the title's logo; it changes every 10 seconds. On by default on the HUB and in the screensaver when a TMDb key is set (Home & appearance / the screensaver studio switch it off); while it shows, the MegaNexus logo leaves the background in all three themes.
+
+**Home**
+- 🏷️ **"MegaNexus rows"** is the new name of the catalog-rows layout (Home & appearance > Home layout).
+- 🖼️ **Collections keep their own card shape:** posters or landscape as the collection says (Nuvio's tile shape, a Fusion export's image aspect) - no more guessing from the name ("Genres" / "Themes" posters, everything else landscape). Collections imported earlier get their shapes from Nuvio once, and nothing else of them changes; Nuvio's "focus GIF" switch is kept too.
+- 🎬 **Default collections are a switch:** Collections > "Cinemeta collections" on or off - off once your own collections are there; turning it on again brings them back as they were.
+- 🎞️ **One row at a time, at the bottom:** Up / Down bring the next row into the same place - posters and landscape cards end on the same line, with room below for the focused card's pop (the dark strip at the bottom is gone); the focused title's description has the room above - also inside collections and on Continue Watching. Posters no longer cover the row names when they pop.
+
+**Playback**
+- ⏭️ **Next episode at the right moment:** when the credits are not known (TheIntroDB, the media server or the file's chapters), "Next episode" comes 1 min 30 s before the end - the "counts as watched" percentage brought it far too early on long episodes.
+- 🖼️ **The next episode as its own picture:** its still (or the show's picture), "NEXT EPISODE" and its number and name, bottom right; "Skip outro" beside it while the credits run.
+- ⏯️ **Closed it by mistake?** While the intro or the end plays, the player's buttons (OK) offer "Skip intro / Skip outro" and "Next episode" - opening the player at the end puts the focus on Next episode.
+- 📶 **"No limit · fit the network speed" is the default:** with it on, Largest film and Largest episode are "No limit"; choosing a size limit turns the network fit off.
+- 🔇 **Mini-player trailers can play muted:** Trailers > "Mini-player trailers without sound" (the Trailer button keeps its sound); Kodi's mute icon and volume bar no longer show for it, nor when the sound comes back.
+- 🖥️ **Refresh rate with the video background:** the video background (experimental) gave Kodi's "Adjust display refresh rate" back only when it was still playing - a film that took the player first kept it off, and the background could start again under an opening film (a debrid link still resolving). The hold always goes now, and the background waits until the film really plays.
+- 🌫️ **No flash when leaving a film:** with "Adjust display refresh rate" off, the theme's page and our ring cover the screen until the title page or Home is back (with it on, the black curtain as before).
+- 🏷️ **Badge sets to choose from:** Stream badges > Badge set - Nexus Elite (the starter set) and five more, Nebula, Quasar, Comet, Stardust and Galaxy: public Nuvio badge pictures (linked, credited to their authors) with MegaNexus rules. Also on the phone.
+- 💬 **OpenSubtitles comes on:** an installed OpenSubtitles v3 that was off is switched on once (every language); later your own switch is kept.
+- 📶 **"No limit" fits your network:** MegaNexus measures the network's speed once an hour (while nothing plays) and puts first the best link whose bitrate fits 80 % of it - the rest of the home network keeps the other 20 %. Faster links only move down (Automatic stream choice > No limit: fit the network speed).
+
+**Screensaver**
+- 🎨 **Widgets in the theme's colours:** clock, weather, calendar and text take the theme's accent and text colours by default, and a new theme brings them back to its colours.
+- 🖼️ **Your picture is the wallpaper too:** a screensaver picture or slideshow of your own sets the wallpaper to "same as the screensaver" (also once for existing setups).
+- 🌗 **No darkening at all:** no early black, no black curtain, no black cover lifting off the picture, and MegaNexus' own "Dim the screen" is gone. Kodi has one screensaver at a time: with the MegaNexus screensaver off, Screensaver > "With the MegaNexus screensaver off" chooses Kodi's Dim (as before) or nothing.
+
+**Loading**
+- 🔵 **Only our ring, no words:** every loading screen, the small pill during a video and the title page show the blue ring until the page is there - no "Loading sources / recommendations / category / streams" lines, no title picture behind the ring, no "Loading…" cards.
+
+**Interface colours**
+- 🎨 **Colours that follow your picture:** the accent is the background's leading colour (its vivid parts count most - large dull areas no longer win), and the backgrounds, panels, pills and focus take a clearly visible part of it (Interface colour strength). An orange and yellow picture gives an orange interface, not a blue one.
+
+**Continue Watching**
+- ▶️ **A title leaves it only when it is watched:** it goes on its own only when this viewing reaches the "counts as watched" point (or it was finished after it, e.g. on another device). A watched mark from before you started it again (Trakt / Simkl history) no longer removes it - that hid films seen once and started again, and titles started and left at once (their cloud copy is as new as the local one). Watched stays watched.
+- ↩️ **Removed by you, back when played:** a title you removed returns as soon as it starts again, even for a few seconds.
+- 🆕 **Started and left at once:** a title opened and left within a second is in Continue Watching from the start; a saved resume point is never set back.
+
+**Library**
+- 📚 **Series you are watching show their services:** a series saved long ago showed only "Local" - Trakt drops a started show from its watchlist and Simkl moves it to Watching. The Library now shows Trakt / Simkl / MDBList beside "Local" for titles they follow as watched or in progress.
+
+**Sport and IPTV**
+- ⚽ **One row of posters, like Home**, and no picture flashing in or out: Sport, IPTV and leaving MegaNexus keep the current screen with our ring until the next one is ready.
+
+**Keyboard**
+- ⌨️ **Special keys in their place:** the Caps Lock symbol no longer hangs below its key, the space bar has a thin space symbol in the middle instead of a white bar on the left, and the other symbols (accents, Shift, arrows, Backspace) sit in the middle of their keys.
+
+**Phone setup**
+- ✨ **New look:** glass cards, an icon tab bar, messages as a small note above the Save button.
+- 🚀 **Start tab - the first setup in three steps:** metadata (AIOMetadata), streams (AIOStreams, PenguPlay) and subtitles (OpenSubtitles in one tap, SubDL, SubSource, OpenSubtitles v3+): open the add-on's own setup page, copy the link it makes, paste it back. Installed add-ons are marked.
+- ❓ **Help tab:** the TV's user guide on the phone.
+- 🖥️ **A true screensaver preview:** the Screensaver tab draws the TV's own layout (from its window) with the TV's fonts, pictures, colours, weather, date and calendar - and Trending now on TMDB, which has its own switch there.
+- 📱 **Stays open while the page is open:** the phone page tells the TV every minute that it is still there, and says clearly when the TV closed the setup or the page belongs to an older QR code (scan again).
+
+**Diagnostics overlay**
+- 🚀 **The network's top speed:** a "Max speed" line with the download and upload measured by the hourly speed check (the upload is new).
+- 📊 **Internet in use, and no constant redrawing:** the overlay shows the internet in use now (down / up); its numbers are updated every 2 seconds by the service - Kodi's own frame-rate label changed every frame and kept the whole screen redrawing (over half a CPU core on a test box with nothing happening).
+
+**Help & support**
+- 📄 **License** shows the MegaNexus License; the User guide has the new IPTV, HUB, memory and network topics and "What is new, and what is missing".
+
+## 7.0.41 Beta
+
+**Memory**
+- 🧠 **Memory also comes back while MegaNexus stays open:** after 45 seconds without a key (and nothing playing), at most every 3 minutes - a long visit kept up to 144 MB of freed memory until you left.
+
+## 7.0.40 Beta
+
+**Memory**
+- 🧠 **Memory given back twice after you leave:** a few seconds after leaving MegaNexus or the end of a video, and once more 40 seconds later - at the first time Python is still closing the interface (on a test box 34 MB more came back the second time).
+
+## 7.0.39 Beta
+
+**Memory**
+- 🧠 **Memory goes back after MegaNexus closes:** Kodi kept memory that MegaNexus had already freed, so every visit left the box with a little more RAM in use (on a test box 104 MB came back at once). The service now gives it back to the system a few seconds after you leave MegaNexus or a video ends - never while something plays.
+
+**IPTV**
+- 🔁 **Channel list changes are safe:** IPTV Simple restarts only after Kodi's TV part really stopped, and is checked to start again (switching groups could leave Live TV without channels); the service and the IPTV screen never make a list at the same time.
+
+## 7.0.38 Beta
+
+**IPTV**
+- 📋 **IPTV lists:** add as many M3U or Xtream lists as you like (HUB Settings > Live TV, IPTV & Sport > IPTV lists). Each has its own switches: **Live TV** (its channels in the TV list), **IPTV VOD** (its films and series as a source) and **Groups**; a list can be renamed or removed. A setup from before becomes the first list.
+- 📺 **Only live TV in the channel list - for any playlist:** films and series are recognised by what the playlist itself says (IPTV Simple's media marks, a type of movie / series, a link to a video file such as .mkv or .mp4 - also after # - or a film / series path), never by group names. Kodi loads the channels only.
+- 🗂️ **Groups:** the new Groups button next to Refresh guide switches channel groups (countries...) on and off. Switched-off groups are left out of the list Kodi reads - they are not loaded at all.
+- 🎬 **IPTV VOD:** the films and series of your lists show in the source list of a title, next to the stream add-ons - only while IPTV is set up. Nothing is loaded in advance: a small index on the device is searched when you open a title.
+
+**Screens**
+- 🧹 No key hints at the bottom of any screen any more.
+
+## 7.0.37 Beta
+
+**Faster boxes, less memory**
+- 📺 **Only live TV in Kodi's channel list:** an Xtream account's playlist also lists its films and series as "channels" (on a test box 34,024, 85 % of them films and series). MegaNexus now gives Kodi only the live channels - the provider's own links say what is a film or series - and keeps the list on the device, made again each morning. Channel numbers, groups, logos, favourites, the guide and catch-up stay. On by default: HUB Settings > Live TV, IPTV & Sport > Only live TV in the channel list.
+- 🖼️ **Posters stay small after a 4K film:** the poster size follows the interface resolution in Kodi's settings, not the 4K picture of the film that just played (Home took 6-9 seconds to draw for a minute after one).
+- ⚡ **Home redraws only cards that changed.**
+- 🧠 **Memory limits:** add-on answers kept in memory up to 24 MB, MDBList lists up to 8 MB (they could grow without end).
+- 🔌 **Kodi closes cleanly:** the background helpers for add-ons and subtitles end with Kodi (they kept it open until the system stopped it after 30 seconds).
+
+**New**
+- ☁️ **Offcloud and Easynews built in** next to TorBox and Premiumize: HUB Settings > Connections > Add-ons > Debrid & Usenet. Offcloud takes its API key, Easynews its login as username:password - both also from your phone on the setup page.
+- 🏷️ **Ongoing / Ended** badge before a series' release badge on Home, in collections and on the title page.
+- 🔵 **Trailers start behind the blue ring only**, without words.
+
+## 7.0.36 Beta
+
+**Faster, quieter start**
+- ⏱️ **The One-time setup only when it is needed:** its screen with words appears only while Kodi keeps fewer than half of the pictures (first start, a cleared cache, a new Artwork choice). Otherwise the few new posters come in behind the ring alone, for at most 30 seconds.
+- 🏷️ **Release badges on Home at once:** TMDB's release dates of Home and every collection are fetched in the background (only while you are not using the remote - nothing slows down) and kept: released films for half a year, films in cinemas and series until midnight, then fetched again. Series show their next episode (Coming Friday · S2 E5).
+
+**Simpler title menus**
+- 🧹 **No Info window any more:** the Info key opens the title's page; Continue Watching has **Details** (the page with Play).
+- 📚 **Remove from Library** is offered for every title in the Library - also those on Trakt, Simkl or MDBList - and takes it out of all of them and of this device.
+
+**Fixes**
+- 🌤️ The small 5-day forecast of the screensaver no longer shows a line through today's pill.
+
 ## 7.0.35 Beta
 
 **License**
