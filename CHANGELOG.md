@@ -1,5 +1,72 @@
 # Changelog
 
+## 7.0.45 Beta
+
+**Profiles**
+- 👥 **Who's watching:** profiles with a picture or initials and an optional PIN, chosen when Kodi starts
+- 🔐 Each profile has its own accounts, Continue Watching, Library and subtitle language; add-ons and settings stay shared
+- 🔗 A profile can follow its own Nuvio profile
+- 📱 Profiles on the phone page, and a small profile circle next to the clock
+
+**Title pages**
+- 💬 **Reviews** from Trakt and TMDB under Cast & crew
+- ⭐ **Episode ratings** on episode cards
+- 🗳️ **Rate** films, shows and episodes on Trakt and TMDB from your phone (hold OK)
+
+**Usenet**
+- 🔍 Your own Newznab indexers, picked from a list
+- 🛰️ Spotnet built in
+- 🛡️ Indexer limits respected
+- 🩺 Releases checked before they play
+- 🧙 Step-by-step Usenet setup in its own Settings menu
+
+**Debrid**
+- 🧲 Your own Prowlarr for TorBox, Premiumize and Offcloud
+
+**Subtitles**
+- 🎯 Smarter Autosync that finds the right version of a film and switches to a matching subtitle
+- 💾 A synced subtitle is remembered for the film while it is in Continue Watching
+- 🔤 Correct letters in every language
+- 🤖 Machine translations skipped
+- 💊 "Syncing subtitles…" shown in the player
+
+**Playback**
+- ▶️ Continue Watching resumes with your last link again
+- ⏹️ Back stops a video started outside MegaNexus too (optional)
+- 📺 IPTV VOD playback fixed
+- 🛠️ A crash in the source list on Kodi 22 fixed
+
+**Home & HUB**
+- ⚡ Faster Home, rows and collections
+- ⭕ One loading ring when opening MegaNexus
+- ↩️ Back after a video returns where you started
+- 🖼️ TMDB logos shown correctly
+- 🔲 Smoother trailers on CoreELEC
+
+**Other**
+- 🔁 Reboot to Android or recovery on dual-boot CoreELEC boxes
+- ⌨️ Keyboard suggestions as pills
+- 🧩 More reliable first-start setup
+
+## 7.0.44 Beta
+
+**Home**
+- 🏷️ Title logos instead of names on Home and in collections
+
+**Sources**
+- 🎞️ A cleaner source list over the page you are on
+- ✍️ Source formatters (Cinema and more)
+- ⬇️ Hold OK on a source to download it
+
+**Titles**
+- 🪟 Titles open in place on Home and in collections
+
+**Nuvio**
+- 🔄 Library and watchlist sync both ways, removals included
+
+**HUB**
+- 🔥 Trending now on TMDB, Google TV style
+
 ## 7.0.43 Beta
 
 **Sources**
