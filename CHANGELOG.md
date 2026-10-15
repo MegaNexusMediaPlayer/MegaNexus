@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.0.46 Beta
+
+- 🎬 Trailers from a title page play full screen again
+- 🧹 Cleaner log on a fresh install
+
 ## 7.0.45 Beta
 
 **Profiles**
