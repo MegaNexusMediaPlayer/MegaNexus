@@ -1,5 +1,13 @@
 # Changelog
 
+## 7.0.47 Beta
+
+- 🎬 Trailers start at once from a title page
+- ⚡ MegaNexus opens faster
+- 🖼️ Posters are prepared while the screensaver runs, with a progress circle
+- 📺 Continue Watching shows the next episode instead of an older one
+- 💾 Backup and restore now include profiles, pictures, IPTV lists and the look
+
 ## 7.0.46 Beta
 
 - 🎬 Trailers from a title page play full screen again
