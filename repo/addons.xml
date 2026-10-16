@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.meganexus" name="MegaNexus Hub" version="7.0.48" provider-name="MegaNexus">
+<addon id="plugin.video.meganexus" name="MegaNexus Hub" version="7.0.49" provider-name="MegaNexus">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="xbmc.gui" version="5.17.0" />
@@ -17,7 +17,11 @@
     <summary lang="en_GB">MegaNexus Hub: the backend and the complete MegaNexus installer.</summary>
     <description lang="en_GB">Backend for the MegaNexus interface and skin. Metadata add-ons supply catalog metadata; individually enabled stream add-ons supply sources in their original order. Includes local component installation, account sync, Continue Watching and playback services. Manual bundle ZIP updates only.</description>
     <disclaimer lang="en_GB">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
-    <news>MegaNexus 7.0.48 Beta
+    <news>MegaNexus 7.0.49 Beta - the last beta before the stable 8.0
+- Phone setup: the MegaNexus posters layout with its order, and "Browse all"
+- Backups also keep IPTV catch-up
+
+7.0.48
 - Live TV and Sport: OK plays in the small player, OK again opens the full player with Channels, Previous / Next, Last channels, Catch-up, From start and Source
 - Catch-up with seeking for any IPTV list, with a mark next to channels that have an archive
 - IPTV starts the last channel you watched; the guide shows what is on now first
@@ -34,10 +38,10 @@
     </assets>
   </extension>
 </addon>
-<addon id="script.meganexus" name="MegaNexus" version="7.0.48" provider-name="MegaNexus">
+<addon id="script.meganexus" name="MegaNexus" version="7.0.49" provider-name="MegaNexus">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
-    <import addon="plugin.video.meganexus" version="7.0.48" />
+    <import addon="plugin.video.meganexus" version="7.0.49" />
   </requires>
   <extension point="xbmc.python.script" library="default.py">
     <provides>executable</provides>
@@ -54,10 +58,10 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.meganexus" version="7.0.48" name="MegaNexus Skin" provider-name="MegaNexus; Kodi foundation by Team Kodi">
+<addon id="skin.meganexus" version="7.0.49" name="MegaNexus Skin" provider-name="MegaNexus; Kodi foundation by Team Kodi">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
-    <import addon="script.meganexus" version="7.0.48" />
+    <import addon="script.meganexus" version="7.0.49" />
   </requires>
   <extension point="xbmc.gui.skin" debugging="false">
     <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
@@ -73,10 +77,10 @@
     </assets>
   </extension>
 </addon>
-<addon id="screensaver.meganexus" name="MegaNexus Screensaver" version="7.0.48" provider-name="MegaNexus">
+<addon id="screensaver.meganexus" name="MegaNexus Screensaver" version="7.0.49" provider-name="MegaNexus">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
-    <import addon="script.meganexus" version="7.0.48" />
+    <import addon="script.meganexus" version="7.0.49" />
   </requires>
   <extension point="xbmc.ui.screensaver" library="default.py" />
   <extension point="xbmc.addon.metadata">
