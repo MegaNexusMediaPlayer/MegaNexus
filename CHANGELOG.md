@@ -1,8 +1,13 @@
 # Changelog
 
-## 7.0.48 Beta
+## 7.0.49 Beta
 
 The last beta before the stable MegaNexus 8.0.
+
+- 📱 Phone setup: the MegaNexus posters layout with its order and kind, and "Browse all"
+- 💾 Backups also keep IPTV catch-up, so it works at once on another device
+
+## 7.0.48 Beta
 
 **Live TV and Sport**
 - 📺 OK plays in the small player, OK again opens the full player with Live TV and Sport buttons: Channels, Previous / Next, Last channels, Catch-up, From start, Source
