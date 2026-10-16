@@ -1,5 +1,28 @@
 # Changelog
 
+## 7.0.48 Beta
+
+The last beta before the stable MegaNexus 8.0.
+
+**Live TV and Sport**
+- 📺 OK plays in the small player, OK again opens the full player with Live TV and Sport buttons: Channels, Previous / Next, Last channels, Catch-up, From start, Source
+- ⏪ Catch-up in the player with seeking, for any IPTV list; a catch-up mark next to channels with an archive
+- ▶️ IPTV starts the last channel you watched; the guide shows what is on now first
+- 🔤 Names under the player's buttons and rounded boxes over the player
+
+**Home and Library**
+- 🧱 New Home layout: MegaNexus posters, every film and series of your collections once, with order and kind options
+- 📜 All your collections and catalogs on Home, the next ones load as you reach the bottom
+- ➡️ "Browse all" is now an option; off, a row keeps going as you scroll
+- 📚 Library views: rows, poster grid, wide cards or a list, with sorting and filters
+- 📝 "What's new" beside every update, to read the changes before installing
+- 🖼️ Sharper Trending now pictures and a smoother start of films
+
+**Fixes**
+- 🛠️ Removing an IPTV list works again
+- 🛠️ Opening IPTV waits for the channels instead of showing the setup
+- 🛠️ Back from the player works right after switching channel or stream
+
 ## 7.0.47 Beta
 
 - 🎬 Trailers start at once from a title page
