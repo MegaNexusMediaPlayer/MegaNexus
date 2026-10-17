@@ -1,8 +1,18 @@
 # Changelog
 
-## 7.0.49 Beta
+## 7.0.50 Beta
 
 The last beta before the stable MegaNexus 8.0.
+
+- 🔁 Autosync: each press goes further - the video's own subtitles, piece by piece, then another subtitle in your language
+- ⏭️ Next episode offered also when a stream ends a few minutes early
+- ⏩ Skip outro is its own option (off); Skip intro stays on
+- 📺 No refresh-rate switching in Live TV and Sport; films and series switch from the start of loading
+- ✅ A series counts as watched once every episode out so far is seen
+- ⚡ Posters show at once; Home draws faster on TV boxes
+- 🛠️ Fixes: Usenet streams, IPTV after the screensaver, an expired Trakt sign-in, the Sync button always in the player, Library focus, rows without Browse all
+
+## 7.0.49 Beta
 
 - 📱 Phone setup: the MegaNexus posters layout with its order and kind, and "Browse all"
 - 💾 Backups also keep IPTV catch-up, so it works at once on another device
