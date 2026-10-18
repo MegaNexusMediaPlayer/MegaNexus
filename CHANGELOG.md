@@ -1,8 +1,14 @@
 # Changelog
 
-## 7.0.50 Beta
+## 7.0.51 Beta
 
 The last beta before the stable MegaNexus 8.0.
+
+- 🛠️ First install: the setup waits until you keep MegaNexus Skin, and does not start without it
+- 📡 Usenet streams steadier on small boxes, and Stop no longer waits
+- 🪟 Report a problem shows its QR code on Windows again
+
+## 7.0.50 Beta
 
 - 🔁 Autosync: each press goes further - the video's own subtitles, piece by piece, then another subtitle in your language
 - ⏭️ Next episode offered also when a stream ends a few minutes early
