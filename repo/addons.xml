@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.meganexus" name="MegaNexus Hub" version="8.0.0" provider-name="MegaNexus">
+<addon id="plugin.video.meganexus" name="MegaNexus Hub" version="8.0.1" provider-name="MegaNexus">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="xbmc.gui" version="5.17.0" />
@@ -17,7 +17,11 @@
     <summary lang="en_GB">MegaNexus Hub: the backend and the complete MegaNexus installer.</summary>
     <description lang="en_GB">Backend for the MegaNexus interface and skin. Metadata add-ons supply catalog metadata; individually enabled stream add-ons supply sources in their original order. Includes local component installation, account sync, Continue Watching and playback services. Manual bundle ZIP updates only.</description>
     <disclaimer lang="en_GB">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
-    <news>MegaNexus 8.0.0 Stable
+    <news>MegaNexus 8.0.1 Stable
+- Usenet films play again - also on Android and 32-bit boxes
+- API keys and settings stay saved after going back to an older Kodi 22 build
+
+MegaNexus 8.0.0 Stable
 - Watch Party: watch together with friends on other TVs - everyone starts together, pause and jumps follow the host
 - Watch Party: messages in the player, friends online, direct messages
 - Watch Party: your phone as the party remote; a Watch Party button in the player
@@ -33,10 +37,10 @@
     </assets>
   </extension>
 </addon>
-<addon id="script.meganexus" name="MegaNexus" version="8.0.0" provider-name="MegaNexus">
+<addon id="script.meganexus" name="MegaNexus" version="8.0.1" provider-name="MegaNexus">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
-    <import addon="plugin.video.meganexus" version="8.0.0" />
+    <import addon="plugin.video.meganexus" version="8.0.1" />
   </requires>
   <extension point="xbmc.python.script" library="default.py">
     <provides>executable</provides>
@@ -53,10 +57,10 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.meganexus" version="8.0.0" name="MegaNexus Skin" provider-name="MegaNexus; Kodi foundation by Team Kodi">
+<addon id="skin.meganexus" version="8.0.1" name="MegaNexus Skin" provider-name="MegaNexus; Kodi foundation by Team Kodi">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
-    <import addon="script.meganexus" version="8.0.0" />
+    <import addon="script.meganexus" version="8.0.1" />
   </requires>
   <extension point="xbmc.gui.skin" debugging="false">
     <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
@@ -72,10 +76,10 @@
     </assets>
   </extension>
 </addon>
-<addon id="screensaver.meganexus" name="MegaNexus Screensaver" version="8.0.0" provider-name="MegaNexus">
+<addon id="screensaver.meganexus" name="MegaNexus Screensaver" version="8.0.1" provider-name="MegaNexus">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
-    <import addon="script.meganexus" version="8.0.0" />
+    <import addon="script.meganexus" version="8.0.1" />
   </requires>
   <extension point="xbmc.ui.screensaver" library="default.py" />
   <extension point="xbmc.addon.metadata">
