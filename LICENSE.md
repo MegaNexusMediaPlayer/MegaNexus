@@ -50,10 +50,15 @@ distributed by the author as part of MegaNexus under this license.
 
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
-## Earlier versions
+## Earlier versions and some still in Stable version
 
 Versions up to and including 6.0.23 were published under the MIT license;
-copies of those versions keep that license. This license applies from 6.0.24.
+Hi, I'm the developer of Dex Hub (plugin.video.dexhub).
+
+Local AI LLMs/DexHUB issue
+Some code mistankenly transferd from (Copyright (c) 2026 6ahd),plugin.video.dexhub credits to Dex Hub who alowed his code with MIT Licence as he claims to be noted.
+Some .plugins cintains most of code as is from DexHub which on our side is for big part is dead code and not used by our addon but some is crucial for work.Big thanks to DexHub for reaching out.
+
 
 ## No warranty
 
