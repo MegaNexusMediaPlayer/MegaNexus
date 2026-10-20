@@ -1,5 +1,10 @@
 # Changelog
 
+## 8.0.1 Stable
+
+- 🎬 Usenet films play again - also on Android and 32-bit boxes (Kodi 21 and 22)
+- 🔑 API keys and settings stay saved after going back to an older Kodi 22 build
+
 ## 8.0.0 Stable
 
 **Watch Party**

@@ -63,6 +63,11 @@ bool ValidToken(const std::string& token)
 bool IsFilm(const kodi::addon::VFSUrl& url, const std::string& name)
 {
   std::string file = url.GetFilename();
+  // Kodi keeps "|options" and "?options" of a protocol it does not know in the file name
+  // (URL.cpp): film.mkv|ids={...} is still the film (issue #13)
+  size_t options = file.find_first_of("|?");
+  if (options != std::string::npos)
+    file = file.substr(0, options);
   size_t slash = file.find_last_of('/');
   if (slash != std::string::npos)
     file = file.substr(slash + 1);

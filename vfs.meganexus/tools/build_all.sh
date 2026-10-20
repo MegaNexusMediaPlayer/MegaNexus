@@ -10,7 +10,7 @@ set -e
 CACHE=$(realpath "$1"); OUT=$(realpath -m "$2"); VERSION=$3; shift 3
 TARGETS=${@:-android-armv7 android-aarch64 linux-armv7 linux-aarch64 linux-x86_64 windows-x86_64}
 SRC=$(cd "$(dirname "$0")/.." && pwd)
-DEVKITS=$(realpath "$SRC/../../kodi-devkit")
+DEVKITS=$(realpath "$SRC/../../../tools/kodi-devkit")   # NuvioKodiProject/tools, for nightly/ and stable/ alike
 mkdir -p "$OUT"
 docker build -q -t mnx-vfs-build - <<'DOCKER' >/dev/null
 FROM debian:bookworm

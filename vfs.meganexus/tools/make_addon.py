@@ -10,6 +10,9 @@ USED = (('ADDON_GLOBAL_VERSION_MAIN', 'kodi.binary.global.main'),
         ('ADDON_GLOBAL_VERSION_FILESYSTEM', 'kodi.binary.global.filesystem'),
         ('ADDON_INSTANCE_VERSION_VFS', 'kodi.binary.instance.vfs'))
 OS = {'linux': 'linux', 'android': 'android', 'windows': 'windows', 'osx': 'osx'}
+# 8.0.1: Kodi names linux-armv7 only when it was built for ARMv7 itself - CoreELEC builds its 32-bit Kodi
+# for ARMv8 (aarch32) and accepts just "linux", so the ARMv7 build (it runs there) carries both
+PLATFORMS = {'linux-armv7': 'linux-armv7 linux'}
 
 
 def main(devkit, library, platform, out, version):
@@ -23,7 +26,7 @@ def main(devkit, library, platform, out, version):
     folder = os.path.join(out, 'vfs.meganexus')
     os.makedirs(folder, exist_ok=True)
     xml = (template.replace('@VERSION@', version).replace('@REQUIRES@', requires)
-           .replace('@LIBRARY_OS@', OS[platform.split('-')[0]]).replace('@LIBRARY@', name).replace('@PLATFORM@', platform))
+           .replace('@LIBRARY_OS@', OS[platform.split('-')[0]]).replace('@LIBRARY@', name).replace('@PLATFORM@', PLATFORMS.get(platform, platform)))
     open(os.path.join(folder, 'addon.xml'), 'w', encoding='utf-8').write(xml)
     shutil.copy2(library, os.path.join(folder, name))
     for notice in ('LICENSE.txt', 'LICENSE-OpenSSL.txt'):   # GPL-3.0-or-later; OpenSSL built in
