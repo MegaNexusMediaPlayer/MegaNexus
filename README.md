@@ -56,6 +56,7 @@ accounts, servers and add-ons give you.
 - Fast source search: the list opens with the first results and fills in as each add-on answers; every source shows the add-on it comes from, with a filter row on top.
 - Automatic stream choice that knows releases: REMUX → Blu-ray → WEB-DL, then Dolby Vision / HDR and the best audio (TrueHD Atmos, DTS-HD MA…). With *No limit* it picks the best link your network can carry (measured hourly). Autoplay moves on to the next source by itself when one does not play.
 - **Stream badges** on every source, in six ready-made sets or your own Nuvio badge JSON.
+- **Usenet:** your own provider and Newznab indexers, Spotnet, and a fast Usenet player that comes only when you use Usenet.
 - **Downloads:** keep a film or an episode on your device or network share. Lost connection? It carries on where it stopped.
 
 **💬 Subtitles**
@@ -65,6 +66,8 @@ accounts, servers and add-ons give you.
 
 **▶️ Your progress everywhere**
 - Sync with your **Nuvio** or **Stremio** account, **Trakt**, **Simkl** and **MDBList**: progress, watched marks and watchlists. One Continue Watching card per title, whatever app saved it.
+
+**🍿 Watch Party** - watch together with friends on other TVs: everyone starts the film together, pause and jumps follow the host, messages in the player, friends online and direct messages - with your phone as the party remote.
 
 **📺 Live TV and Sport** - IPTV (Xtream or M3U, several lists) with guide, preview and catch-up, live channels only in Kodi's list and the films and series of your list as a source; a Sport screen for live events.
 

@@ -1,5 +1,103 @@
 # Changelog
 
+## 8.0.0 Stable
+
+**Watch Party**
+- 🍿 Watch together with friends on other TVs - everyone starts the film together, pause and jumps follow the host
+- 💬 Messages in the player (with emoji), friends online, direct messages and a Friends screen like a chat app
+- 📱 Your phone as the party remote: invite friends, copy the party and friend codes, settings that change at once
+- 🎉 Watch Party button in the player: the code shows in a corner, the film keeps playing
+- 🔗 Share my stream: guests without the film play your TorBox link to it
+
+**Usenet**
+- ⚡ A fast Usenet player - installed only when you use Usenet (your Usenet server, a Usenet film, or Settings > Usenet)
+- ⏹️ Leaving a Usenet film is instant; Autosync works with Usenet films too
+
+**Everything else**
+- 📱 Quick setup from the phone: streams, metadata and collections in one step
+- ⏯️ Continue watching picks up where you stopped - also films with DTS-HD sound
+- 💾 Screensaver and other settings stay chosen after Kodi closes - also on Windows
+- 👤 Who's watching answers the first press
+- ⚡ Faster Home and a steadier screensaver
+
+## 7.0.62 Beta
+
+- 📡 Watch Party: more relays - the party goes on when one of them refuses
+- 😴 Watch Party: guests stay in the party while the host's TV rests
+- 🔇 Watch Party: fewer messages during a film
+
+## 7.0.61 Beta
+
+- 🔗 Watch Party: Share my stream gives guests without the film your TorBox link to it
+- 📱 Phone remote: the tab bar comes back when the keyboard closes
+- 😀 Watch Party messages show emoji on the TV
+- 💬 Long messages stay until they have scrolled to the end
+- 🟢 Friends show offline sooner when their Kodi closes
+- ✉️ An invite shows once - never again after a restart or once the party is over
+- ⏱️ Watch Party works between TVs whose clocks differ by a few minutes
+
+## 7.0.60 Beta
+
+- 🎉 Watch Party button in the player: the code shows in a corner, the film keeps playing
+- 📱 New phone remote: tabs, invite friends, copy the party and friend codes
+- ⚙️ Watch Party settings on the phone change at once
+- 🏠 Watch Party on Home grows on focus like the other buttons
+- 📖 The guide explains Watch Party and the new features
+- 💾 Screensaver and other settings stay chosen after Kodi closes - also on Windows
+- 🌙 Steadier return from the screensaver
+- 👤 Who's watching answers the first press
+
+## 7.0.59 Beta
+
+- ⏯️ Continue watching picks up from a few seconds in again
+- 💬 Smoother player while Watch Party messages show
+- 📡 Steadier Usenet playback when jumping
+
+## 7.0.58 Beta
+
+- 🚪 Watch Party: the party ends for everyone when the host's TV sleeps, restarts or goes quiet
+- 🧹 Watch Party: old invites go away
+
+## 7.0.57 Beta
+
+- 🎬 Watch Party: guests stay in the party when the host's TV restarts - film and messages keep coming
+- 👥 Friends: names on every message, Add friend and Remove friend in sight
+- ⚡ MegaNexus opens quickly again with the quick setup's metadata
+
+## 7.0.56 Beta
+
+- 🔊 Films with DTS-HD sound continue where you stopped without Kodi closing on some boxes
+
+## 7.0.55 Beta
+
+- 🎬 Watch Party: everyone starts the film together; small differences are left alone
+- 💬 Watch Party: messages in the player, bottom right
+- 👥 Watch Party: friends and messages like a chat app on the TV
+- ⚙️ Watch Party settings in HUB Settings; the party count on Home
+- ⚡ Home opens faster again
+
+## 7.0.54 Beta
+
+- 💬 Watch Party: messages show in the player
+- 👥 Watch Party: see which friends are online and message them - on the phone and the TV
+- 🍿 Watch Party: the host's film starts on every TV, and never cuts off what a guest is watching
+- 🔒 Watch Party: safer joining, and a new phone link whenever you want one
+
+## 7.0.53 Beta
+
+- 💬 Watch Party: messages as pills in the player and on Home
+- 📱 Watch Party: a nicer phone remote with clear controls; the host can remove guests
+- 📌 Watch Party: save the phone page to your home screen - it keeps working after a restart
+- 🎞️ Local films start without showing HUB first
+
+## 7.0.52 Beta
+
+- ⚡ Usenet: a new fast player for TV boxes, installed by itself - 4K and big releases play smoothly
+- ⏹️ Leaving a Usenet film is instant
+- 🔁 Autosync works with Usenet films too
+- 🍿 Watch Party: watch together with friends, chat and control the film from your phone
+- 📱 Quick setup from the phone: streams, metadata and collections in one step
+
 ## 7.0.51 Beta
 
 The last beta before the stable MegaNexus 8.0.
