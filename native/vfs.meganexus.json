@@ -1,0 +1,65 @@
+{
+ "builds": {
+  "21/android-aarch64": {
+   "path": "native/21/android-aarch64/vfs.meganexus-1.1.0.zip",
+   "sha256": "7125e6d58026325f49e62b0284d3bc78a8b97ce0828e8f668953980f805757e7",
+   "size": 2106669
+  },
+  "21/android-armv7": {
+   "path": "native/21/android-armv7/vfs.meganexus-1.1.0.zip",
+   "sha256": "9a4d27ffaab5f8562f216adf8b21185cfafa803f960d731595563163f65f9bba",
+   "size": 1943962
+  },
+  "21/linux-aarch64": {
+   "path": "native/21/linux-aarch64/vfs.meganexus-1.1.0.zip",
+   "sha256": "77df5023a2e9c2deb23e0a49fbd90d7d24a0587d059349eb3486b16615dbcc3a",
+   "size": 2401284
+  },
+  "21/linux-armv7": {
+   "path": "native/21/linux-armv7/vfs.meganexus-1.1.0.zip",
+   "sha256": "26797ae848e0f3b722d3dfc293d2c46fefa1402926d8fe5bcc07c42e5f93d23d",
+   "size": 2027004
+  },
+  "21/linux-x86_64": {
+   "path": "native/21/linux-x86_64/vfs.meganexus-1.1.0.zip",
+   "sha256": "e6864b61765cf071cccf6844c7bac78eade7647cb662be0780718f86dd02c58f",
+   "size": 2606446
+  },
+  "21/windows-x86_64": {
+   "path": "native/21/windows-x86_64/vfs.meganexus-1.1.0.zip",
+   "sha256": "b989cf7c0592080a351ec68cdb3d2d765bd2047dfbd309d739c1ca6efb8e7ccf",
+   "size": 2210257
+  },
+  "22/android-aarch64": {
+   "path": "native/22/android-aarch64/vfs.meganexus-1.1.0.zip",
+   "sha256": "472a27fa68c91dd358b4e149a554e42a5395e2fda13f12fff0fe6fe69509ce2d",
+   "size": 2106675
+  },
+  "22/android-armv7": {
+   "path": "native/22/android-armv7/vfs.meganexus-1.1.0.zip",
+   "sha256": "e4e2427eddd6b9a10af160bb6130922e85dae2c5dffc6a534a782526f0a4f81e",
+   "size": 1944006
+  },
+  "22/linux-aarch64": {
+   "path": "native/22/linux-aarch64/vfs.meganexus-1.1.0.zip",
+   "sha256": "0e6d1441212e67466798cc7d5d7dcfb2ac36cf7c81dbc15b37508d410ffbc4ba",
+   "size": 2401857
+  },
+  "22/linux-armv7": {
+   "path": "native/22/linux-armv7/vfs.meganexus-1.1.0.zip",
+   "sha256": "6a14cb73a399bb1c0c31710d6716e9da375bddddd2a699b4c8ee7ae14a92fb6d",
+   "size": 2026952
+  },
+  "22/linux-x86_64": {
+   "path": "native/22/linux-x86_64/vfs.meganexus-1.1.0.zip",
+   "sha256": "84358a526f5f2c7e22e0b70af1be29672aec318457131dfa82d18f3b40ad709a",
+   "size": 2606532
+  },
+  "22/windows-x86_64": {
+   "path": "native/22/windows-x86_64/vfs.meganexus-1.1.0.zip",
+   "sha256": "a8ab3d5017cc707e3a4ef88ccee5cf00ab833ac60ee70b6dd5d6555d6bce44b3",
+   "size": 2210269
+  }
+ },
+ "version": "1.1.0"
+}
