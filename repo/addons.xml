@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.meganexus" name="MegaNexus Hub" version="9.0.1" provider-name="MegaNexus">
+<addon id="plugin.video.meganexus" name="MegaNexus Hub" version="9.0.2" provider-name="MegaNexus">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="xbmc.gui" version="5.17.0" />
@@ -17,25 +17,24 @@
     <summary lang="en_GB">MegaNexus Hub: the backend and the complete MegaNexus installer.</summary>
     <description lang="en_GB">Backend for the MegaNexus interface and skin. Metadata add-ons supply catalog metadata; individually enabled stream add-ons supply sources in their original order. Includes local component installation, account sync, Continue Watching and playback services. Manual bundle ZIP updates only.</description>
     <disclaimer lang="en_GB">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
-    <news>MegaNexus 9.0.1 - tracking made right.
-- Same watch history everywhere: Trakt, Simkl, MDBList and WeTrakr get only what each is missing, with the date it was watched; nothing is removed or counted twice (Accounts &amp; tracking).
-- Continue Watching: a finished title comes back only when it is really watched again; real dates, never the time of an import.
-- Trakt: every page of your history is read; sign-ins stay; paused episodes kept the same as here.
-- Anime numbered the same on every service.
-- WeTrakr without an own app: just Connect; start, pause and stop are reported.
-- The subtitle list fills while the add-ons answer, languages by full name.
-- Trailers start at once; Home never waits for them.
-- A new Artwork choice switches every picture at once; old pictures cleaned every week.</news>
+    <news>MegaNexus 9.0.2 - smooth and steady.
+- Fire TV Cube and other Amlogic boxes: no flash of the whole picture when a trailer, Sport or IPTV preview stops or switches.
+- A trailer in the corner hides the moment the cursor moves on.
+- Nothing moves under the remote: Continue Watching filling up keeps the cursor on its card; refreshes never scroll Home.
+- Collections open whole, the cursor already on its card; the way in shows no bare wallpaper.
+- A half-watched episode keeps its place (no longer "Next episode" from the start).
+- Windows HDR: SDR trailers no longer switch the display.
+- The video wallpaper is removed.</news>
     <assets>
       <icon>resources/media/meganexus_icon.png</icon>
       <fanart>resources/media/meganexus_fanart.png</fanart>
     </assets>
   </extension>
 </addon>
-<addon id="script.meganexus" name="MegaNexus" version="9.0.1" provider-name="MegaNexus">
+<addon id="script.meganexus" name="MegaNexus" version="9.0.2" provider-name="MegaNexus">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
-    <import addon="plugin.video.meganexus" version="9.0.1" />
+    <import addon="plugin.video.meganexus" version="9.0.2" />
   </requires>
   <extension point="xbmc.python.script" library="ui_entry.py">
     <provides>executable</provides>
@@ -52,10 +51,10 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.meganexus" version="9.0.1" name="MegaNexus Skin" provider-name="MegaNexus; Kodi foundation by Team Kodi">
+<addon id="skin.meganexus" version="9.0.2" name="MegaNexus Skin" provider-name="MegaNexus; Kodi foundation by Team Kodi">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
-    <import addon="script.meganexus" version="9.0.1" />
+    <import addon="script.meganexus" version="9.0.2" />
   </requires>
   <extension point="xbmc.gui.skin" debugging="false">
     <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
@@ -71,10 +70,10 @@
     </assets>
   </extension>
 </addon>
-<addon id="screensaver.meganexus" name="MegaNexus Screensaver" version="9.0.1" provider-name="MegaNexus">
+<addon id="screensaver.meganexus" name="MegaNexus Screensaver" version="9.0.2" provider-name="MegaNexus">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
-    <import addon="script.meganexus" version="9.0.1" />
+    <import addon="script.meganexus" version="9.0.2" />
   </requires>
   <extension point="xbmc.ui.screensaver" library="saver_entry.py" />
   <extension point="xbmc.addon.metadata">
