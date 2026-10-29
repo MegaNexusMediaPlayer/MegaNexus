@@ -79,6 +79,8 @@ accounts, servers and add-ons give you.
 ### 🔄 Your progress, everywhere
 - Sync with **Nuvio**, **Stremio**, **Trakt**, **Simkl**, **MDBList** and **WeTrakr** — progress, watched marks, watchlists and your library, both ways.
 - One Continue Watching card per title, whatever app saved it.
+- **The same watch history on every service** — Trakt, Simkl, MDBList and WeTrakr each get only what they are missing, with the real date; you see the plan and confirm first.
+- **Full WeTrakr support** — built-in sign-in (just enter the code), now playing, pauses and watched marks.
 - **Accounts that stay signed in** — when Nuvio or Stremio end a session, MegaNexus signs in again by itself; Trakt's one-time renewals are handled one at a time. An account that really is signed out says so once, as a small Kodi notification.
 
 ### 🍿 Watch Party
@@ -131,7 +133,7 @@ Windows, Linux or macOS. A debrid account is recommended for fast streams.
 3. **Add-ons → Install from repository → MegaNexus Repository → Video add-ons → MegaNexus Hub**.
 4. The interface, skin and screensaver install themselves. When Kodi asks to keep the MegaNexus skin, answer **Yes**.
 
-**Or from the zip:** download **`MegaNexus-Complete-9.0.0.zip`** from
+**Or from the zip:** download **`MegaNexus-Complete-9.0.1.zip`** from
 [Releases](https://github.com/MegaNexusMediaPlayer/MegaNexus/releases/latest) (not GitHub's
 "Source code" archive) → **Add-ons → Install from zip file**.
 

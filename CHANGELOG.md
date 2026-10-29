@@ -1,5 +1,41 @@
 # Changelog
 
+## 9.0.1
+
+Tracking made right: every service holds the same watch history, each in its own way.
+
+**Same watch history everywhere** (HUB Settings > Accounts & tracking)
+- Trakt, Simkl, MDBList and WeTrakr are compared with MegaNexus's own history; each one gets only what it is missing, with the date it was really watched. Nothing is removed and nothing is counted twice; you see what goes where and confirm first.
+- Trakt's pauses are kept the same as here: one a later end made old is removed, a real one it lacks is sent (one per series).
+- Nuvio and Stremio: a title finished since no longer shows as under way in their Continue Watching.
+- Works with any one service too - only MDBList, only Nuvio, only Stremio.
+- Anime is numbered the same everywhere: Simkl's episodes (Dragon Ball Z 1-291) are put on their TVDB places (S1-S9).
+
+**Continue Watching**
+- A finished title comes back only when it is really watched again (5 minutes, or 3 % where only a share is known); a pause and the end within 12 hours are one viewing.
+- Imports keep the real date of a watch, never the time of the import; marks an earlier import had dated itself get their real date back.
+- A resume of a few seconds from another app never replaces the end of a title.
+
+**Trakt**
+- Every page of the watched lists is read (Trakt pages them since 2026: only the first 100 films and shows were seen), and episodes come from the history.
+- The sign-in no longer ends by itself: renewals are taken one at a time, as Trakt's single-use refresh tokens need. A backup restored on another device leaves Trakt for that device to sign in to.
+- A film or episode finished while Trakt is signed out is sent with its real time after the next sign-in.
+- The resume time uses the file's real length.
+
+**WeTrakr**
+- MegaNexus's own WeTrakr app is built in: just Connect and enter the code - no own app needed. The sign-in now finishes by itself on the TV and the phone.
+- Now playing, pause and stop are reported while you watch (a resume or a seek moves the place), and an end marks the episode watched.
+
+**Accounts**
+- A service that is really signed out says so once, as a Kodi notification - never over a film.
+- Backup on the phone: with everything, or without sign-ins.
+
+**Also**
+- The subtitle list opens at once and fills while the add-ons answer: add-ons on top, languages by full name on the right, yours first; the film waits while you choose.
+- Trailers start at once from the title page and Back goes straight back; Home never stands still while one starts.
+- A new Artwork choice is carried out at once behind the loading screen, one picture per title; the screensaver removes pictures not shown for a week, every week.
+- Faster posters: a device that kept the old picture path is asked once to switch to vfs.meganexus.
+
 ## 9.0.0 Nightly-Stable
 
 The nightly line made stable: everything since 8.0, tested on Android TV, Fire TV,
