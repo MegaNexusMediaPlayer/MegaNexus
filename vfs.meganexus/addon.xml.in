@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="vfs.meganexus" version="@VERSION@" name="MegaNexus VFS" provider-name="MegaNexusMediaPlayer">
+  <requires>@REQUIRES@
+  </requires>
+  <extension point="kodi.vfs" protocols="mnxusenet|mnxart" files="true" directories="false" filedirectories="false"
+             supportBrowsing="false" supportDialog="false" supportWrite="false" label="30000"
+             library_@LIBRARY_OS@="@LIBRARY@"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>@PLATFORM@</platform>
+    <summary lang="en_GB">MegaNexus' fast loader: Usenet films and pictures</summary>
+    <description lang="en_GB">Reads films straight from Usenet and loads MegaNexus' posters and pictures ahead - fast, on every core, without Python in the way.</description>
+    <license>GPL-3.0-or-later</license>
+    <source>https://github.com/MegaNexusMediaPlayer/MegaNexus/tree/main/vfs.meganexus</source>
+  </extension>
+</addon>
