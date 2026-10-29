@@ -1,5 +1,25 @@
 # Changelog
 
+## 9.0.2
+
+Smooth and steady: nothing moves under the remote, nothing flashes.
+
+**No flashes**
+- Fire TV Cube and other Amlogic boxes (CoreELEC, LibreELEC): the whole picture no longer flashes when a trailer, a Sport or an IPTV preview stops or switches. The box's video driver blacked its video layer out on every stop; it now keeps the last frame, under the interface.
+- A trailer in the corner is hidden the moment the cursor moves on; it played on for up to a second under the next card.
+- Kodi's "Adjust display refresh rate" comes back only once a small video is really gone (it came back halfway through the stop).
+- Opening MegaNexus goes straight from the HUB's picture to the opening screen, without the bare wallpaper in between.
+- Collections open whole: no empty page, no rows one at a time, the cursor already on its card.
+
+**The cursor stays where you are**
+- Continue Watching filling up after a film no longer sends the cursor back to the first card.
+- A refresh in the background never moves the cursor, scrolls Home or plays the slide-in again (Kodi showing Home again after a film, the posters wall arriving).
+
+**Fixes**
+- A half-watched episode keeps its place: it no longer turns into "Next episode" from the start when the episode before it carries a newer date (GitHub #28).
+- Windows with HDR: SDR trailers no longer switch the display to SDR and back (GitHub #29). Other systems are never touched.
+- The video wallpaper is removed (settings, screens and code); pictures and slideshows stay.
+
 ## 9.0.1
 
 Tracking made right: every service holds the same watch history, each in its own way.
