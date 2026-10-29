@@ -1,11 +1,15 @@
 # Changelog
 
+## 9.0.3
+
+- Amlogic boxes: after a Dolby Vision or HDR film or episode every colour of the interface stays right. 9.0.2 kept the film's last frame on the video layer, and the box stayed in that film's colour processing; the frame is now kept only while a trailer, Sport or IPTV preview plays.
+
 ## 9.0.2
 
 Smooth and steady: nothing moves under the remote, nothing flashes.
 
 **No flashes**
-- Fire TV Cube and other Amlogic boxes (CoreELEC, LibreELEC): the whole picture no longer flashes when a trailer, a Sport or an IPTV preview stops or switches. The box's video driver blacked its video layer out on every stop; it now keeps the last frame, under the interface.
+- Fire TV Cube and other Amlogic boxes (CoreELEC, LibreELEC): the whole picture no longer flashes when a trailer, a Sport or an IPTV preview stops or switches. The box's video driver blacked its video layer out on every stop; while a small video plays it now keeps the last frame, under the interface. Films and episodes black out as before.
 - A trailer in the corner is hidden the moment the cursor moves on; it played on for up to a second under the next card.
 - Kodi's "Adjust display refresh rate" comes back only once a small video is really gone (it came back halfway through the stop).
 - Opening MegaNexus goes straight from the HUB's picture to the opening screen, without the bare wallpaper in between.
