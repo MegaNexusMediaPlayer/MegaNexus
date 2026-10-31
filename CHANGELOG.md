@@ -1,5 +1,46 @@
 # Changelog
 
+## 9.0.4
+
+Know what you are watching.
+
+**In the player**
+- As a film or an episode starts, a box of the theme shows for six seconds the mode the display is in (Dolby Vision, HDR or SDR) with the age rating and IMDb's parents guide: sex & nudity, violence, language, alcohol & drugs, frightening scenes. On or off in Settings → Playback.
+- Info works in every player: the Info key, or the Info button, opens our player with a panel from the bottom - the title's logo where the player shows it and the plot (a channel's or a stream's description when there is one). It goes by itself after ten seconds. Kodi's own info no longer opens.
+- The player's Subtitles button names the subtitle on screen in full.
+- IPTV: switching channels in the player no longer lays Kodi's channel banner over the picture.
+- IPTV: the channel list no longer stays over the full-screen picture after a switch in the player.
+
+**Home goes round**
+- A view with more rows than Home holds (12) no longer turns a page at its 12th row (every row drawn again, the cursor back on the first): Down and Up go on through all of them, one row sliding in after the other. A row not ready yet comes empty and fills as you stay - holding Down goes straight on. Up to 12 rows Home is as before.
+- A row that comes round before its titles holds empty cards at once, so held Down passes it instead of stopping there (Kodi cannot put the cursor on an empty list); its titles then take those cards where they stand.
+- "Browse all" off: Right through a row that goes on by itself never stops at its end - empty cards wait there while the next titles load and take them where they stand.
+
+**MegaNexus Catalog in place of Cinemeta**
+- The built-in metadata add-on is now the MegaNexus Catalog Addon (Nuvio's TMDB catalogs): titles, plots and catalogs in your language and region - English (United States) at first; Settings › Metadata add-ons › MegaNexus Catalog · language & region, or on the phone under the add-on.
+- An installed Cinemeta becomes it, with the same switch; Cinemeta's automatic Home becomes its catalogs, as poster rows. It switches itself on only while no other metadata add-on is there.
+- Brought in again by a Nuvio import (any language) it stays one add-on, and Settings show the language it came with.
+- A row your region leaves empty comes in English: the catalog answers nothing for Prime Video Movies / Series in some regions (Croatia among them). Only once that is proven - the catalog answered, asked again it was still empty, and the English one has titles; a slow or lost connection never moves a row. Checked again after a week.
+- Collections & Home rows starts with "Home shows": your collections or the MegaNexus Catalog's, "automatic" when MegaNexus chose it because you have none of your own (it was "Default collections", halfway down the page).
+
+**Setup and help**
+- Quick setup · Free streams on the phone page: MegaNexus with PenguPlay - titles and catalogs from the MegaNexus Catalog (TMDB), streams from PenguPlay, no debrid service (PenguPlay asks you to sign in on its page; paste the link it makes). The debrid quick setup stays the main one; both are public services, added beside your own add-ons.
+- The user guide follows HUB Settings, explains metadata, catalogs and collections in one place, and answers what the reports asked (Kodi's audio sync, refresh rate and HDR settings, removing a title from the Library, signing in to Nuvio again).
+
+**Sport and IPTV**
+- Sport: under the section's name, the event and when it starts in Kodi's own time; times without a zone stay as the add-on wrote them.
+- Sport: no second LIVE badge over posters that carry their own.
+- Sport: a notice "stream" (a status page) is never played; switching in the player no longer drops back to the HUB.
+- IPTV: "OK · Full screen", as in Sport.
+
+**Fixes**
+- Kodi could stand still for good on waking from the screensaver: a background worker the screensaver had started kept it from ending, Kodi stopped it by force and locked up. The screensaver now ends its workers the way every MegaNexus screen does.
+- The installer puts in only the components of its own version - left-over packages of an older version are never installed over newer ones.
+- Posters: a rating poster your add-on gives (BetterPosters, RPDB, ERDB, Top Posters... - Xperience's poster choice) is the poster again. A hidden setting replaced every add-on's poster with MetaHub's plain English one - also a poster in your language - and a new title MetaHub does not have stayed empty. The plain poster now comes in only while the rating poster's service does not answer.
+- Library: titles on WeTrakr show in the Library with its mark, and WeTrakr has its count at the top. The Library's copy of the services' lists pulled Trakt, Simkl and MDBList only - a title saved to WeTrakr reached it, but the Library never showed it there.
+- Library: WeTrakr's mark is its own yellow "we", not a purple W; at the top the sixth place (WeTrakr, after MDBList) shows with its count - the screen filled five of the six - and the row sits closer to the word Library.
+- Posters: an add-on's own picture is never sent through Plex's picture resizer (PenguPlay's sport posters asked a Plex address that is not there and stayed empty); a picture address with /thumb/ or /art/ is no longer taken for a Plex one.
+
 ## 9.0.3
 
 - Amlogic boxes: after a Dolby Vision or HDR film or episode every colour of the interface stays right. 9.0.2 kept the film's last frame on the video layer, and the box stayed in that film's colour processing; the frame is now kept only while a trailer, Sport or IPTV preview plays.
