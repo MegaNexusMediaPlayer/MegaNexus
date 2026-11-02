@@ -1,5 +1,46 @@
 # Changelog
 
+## 9.0.5
+
+One Library, AI subtitles you can trust, quicker everywhere.
+
+**One Library**
+- Every saved title once - on this device, in the Nuvio account, on Trakt, Simkl, MDBList and WeTrakr - with the marks of every place it is in. The Local, Tracking services and Calendar tabs are gone: Local held only this device's titles (6 of a library of 70), and the Calendar's months never showed in the poster views.
+- One row at the top: the places, each with how many titles it holds - choose one to see only its titles (the chosen one in white, the others dimmed) - then the filter (an icon: All, Movies, Series, Anime; in the accent colour while one is on), the order (an icon: recently added, A-Z, year) and the gear. Nothing wears a pill until the cursor is on it, as on Home, and the places stand evenly apart (the numbers' different widths spaced them unevenly). It always opens on everything, and the cards start right under the row.
+- Anime: a title kept by an anime id, or in the public anime list MegaNexus keeps (Fribb's) by its IMDb or TMDB id.
+- All six marks fit on a poster (WeTrakr, the sixth, did not), and the wide cards carry them too.
+- The day a title was added is on its card ("31 Oct"); in the list, in the line beside the picture.
+- Back from a film or a title page the Library no longer flashes and the cursor stays on its title: nothing is drawn again unless something changed, and then only what changed, in place.
+- The pill of a place goes with the cursor - it stayed behind the chosen place when the cursor went on along the row or down to the cards.
+- A saved title carries its marks at once: the Nuvio account it goes to at the next sync, and every tracking service the save reached. A title the account keeps by its TMDB id and this device by its IMDb id is one card.
+- This device's files and the media servers are no longer in the Library - they have their own rows on Home.
+- The Nuvio account's library sync no longer saves a title twice: a title kept here by its IMDb id and in the account by its TMDB id was taken for two titles, sent to the account again and pulled back (one account held 18 titles twice - Nuvio counted 71, the Library 53).
+
+**AI subtitles**
+- **The video's own track first:** the AI button turns on the video's own subtitle in your language whenever it has one (text or pictures), and translates only when it has none. The video's header now says which tracks are its own - Kodi's list took the translation itself for the video's Croatian track.
+- **Every line on its own time:** Gemini sometimes slipped one or two lines in an answer, so a line's words came while someone else spoke - out of step, back in step, out again. Every answer is now checked line by line (names, numbers, the music note); one that slipped is asked again in smaller parts, and a line that keeps slipping is asked alone. Letters of a script the translation does not use (three Chinese characters in a Croatian line) are asked again too.
+- **The whole film in your language:** no line is left in the original language. A line Gemini keeps getting wrong is asked alone, up to three times with your keys in turn; only when Gemini cannot be reached or its day is used up is the translation kept unfinished, and the next press makes it whole.
+- **No sound descriptions:** [Thunder crashing], [Sighs] and the like are left out of every translation; a line that was only that goes, every other line keeps its own time.
+- **The whole film:** the video's own subtitles are read to the last line, however slow its server (90 seconds read The Cycle only to 1:33 of 1:52, and nothing said so). A read that still stops short is used, but never kept as finished.
+- Translations made before are made again once - they may carry slipped lines.
+
+**Search**
+- The add-ons' results show the moment they answer; the pictures chosen in Artwork (TMDB, fanart) follow into the same cards. They were fetched for every result first - on the PC "batman" answered in 1.6 s and showed at 5.7 s.
+
+**Subtitles**
+- Hebrew subtitles no longer come garbled ("שלום" was "ùìåí"), nor Arabic, Persian or Urdu ones: their Windows code pages (CP1255, CP1256) were missing from the ones a subtitle in a known language is read in, so such a file was read as Western European. Thanks for the report (#30).
+
+**Out of the film and back**
+- The player's Home button leaves the film playing behind MegaNexus, and it stays playing: the mark that it waits there went at the first moment Kodi did not say what played (its windows changing as the player was left), and the film was stopped.
+- Now playing at the top of Home takes you back into the film, playing. It asked for Kodi's player while Home was still open, and Kodi refused ("there are active modal dialogs") - Home came straight back. MegaNexus' screens close first now.
+
+**Next episode only at the end**
+- Next episode no longer comes at the start of an episode whose file names its chapters wrongly (Marianne: one chapter, "End Credits", for the whole episode). A chapter called Credits counts only when the file has more than one chapter, it is not the first, and it lies in the last ten minutes or the last fifth of the video; an Intro chapter only in the first half.
+
+**Quicker on slower boxes**
+- The top row (Home, Search, Settings, HUB) comes the moment the cursor reaches it: the skin shows it by itself. It waited for MegaNexus to say so, which on a Fire TV Cube could take a second or two while later rows or Continue Watching were being worked on.
+- A collection's screen opens quicker: a new screen is no longer told what it already is - rows it does not show and where a poster row already stands - each such call waited for Kodi's drawing on the Cube (about half a second of every collection's opening).
+
 ## 9.0.4
 
 Know what you are watching.
