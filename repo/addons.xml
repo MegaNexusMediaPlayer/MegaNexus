@@ -23,7 +23,7 @@
 - Search shows results at once; the top row comes with the cursor; collections open faster.
 - Hebrew and Arabic subtitles no longer garbled; Next episode never at an episode's start.
 - Out of the film and back: the Home button keeps it playing, Now playing returns to it.
-- The account library sync no longer saves a title twice.</news>
+- The Nuvio library sync no longer saves a title twice.</news>
     <assets>
       <icon>resources/media/meganexus_icon.png</icon>
       <fanart>resources/media/meganexus_fanart.png</fanart>
