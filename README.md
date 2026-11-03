@@ -42,6 +42,9 @@ accounts, servers and add-ons give you.
   <img src="docs/screenshots/sport.png" alt="Live Sport" width="32%">
   <img src="docs/screenshots/screensaver.png" alt="MegaNexus Ambient screensaver" width="32%">
 </p>
+<p align="center">
+  <img src="docs/screenshots/hub-apps.png" alt="Apps on the HUB: YouTube, Music, Plex, Jellyfin and Emby" width="98%">
+</p>
 
 <p align="center">▶️ <b><a href="https://github.com/MegaNexusMediaPlayer/MegaNexus/releases/download/v9.0.0/MegaNexus-9.0.0-preview.mp4">Watch MegaNexus 9.0.0 in action (video)</a></b> · 🖼️ <a href="docs/SCREENSHOTS.md">All screenshots</a></p>
 
@@ -86,6 +89,13 @@ accounts, servers and add-ons give you.
 ### 🍿 Watch Party
 Watch together with friends on other TVs: everyone starts the film together, pause and jumps follow
 the host, messages appear in the player, and your phone is the party remote.
+
+### 🎵 Apps: Music and YouTube
+Under the HUB's tiles, the apps. **Music** is a whole music app - Recently played, For you, the artists
+you follow and artists like them, playlists brought in from Spotify, Deezer, YouTube or a CSV / M3U file;
+songs play from your own music sources, your debrid cloud and, last, the artist's own YouTube channel,
+on through all of MegaNexus and under the screensaver, waiting for a film. **YouTube** is MegaNexus' own
+YouTube screen with categories, search and your channels. Plex, Jellyfin and Emby join them later.
 
 ### 📺 Live TV and Sport
 IPTV (Xtream or M3U, several lists) with guide, preview, catch-up and channel groups; the films and
@@ -133,7 +143,7 @@ Windows, Linux or macOS. A debrid account is recommended for fast streams.
 3. **Add-ons → Install from repository → MegaNexus Repository → Video add-ons → MegaNexus Hub**.
 4. The interface, skin and screensaver install themselves. When Kodi asks to keep the MegaNexus skin, answer **Yes**.
 
-**Or from the zip:** download **`MegaNexus-Complete-9.0.5.zip`** from
+**Or from the zip:** download **`MegaNexus-Complete-9.0.6.zip`** from
 [Releases](https://github.com/MegaNexusMediaPlayer/MegaNexus/releases/latest) (not GitHub's
 "Source code" archive) → **Add-ons → Install from zip file**.
 

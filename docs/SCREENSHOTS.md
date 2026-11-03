@@ -22,6 +22,13 @@ Kodi's own home, turned into a HUB: what is trending on TMDB, and every part of 
 
 ![The MegaNexus HUB](screenshots/hub.png)
 
+
+## Apps on the HUB (9.0.6)
+
+Down from the HUB's tiles: YouTube and Music - Plex, Jellyfin and Emby come later.
+
+![Apps on the HUB](screenshots/hub-apps.png)
+
 ## HUB Settings
 
 Everything in one place: set up on phone, profiles, API keys, accounts, add-ons, debrid and storage.

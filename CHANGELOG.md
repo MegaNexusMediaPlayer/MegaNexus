@@ -1,5 +1,40 @@
 # Changelog
 
+## 9.0.6
+
+Apps on the HUB - YouTube and Music; a new HUB; every add-on used.
+
+**The HUB**
+- New tiles: MegaNexus, Channels (IPTV's new name), Live Sport, HUB Settings, Kodi Settings and Power - dark tiles, each with its icon and its words together in its middle, in your theme's colours (the second word, the icon and a soft glow at the foot in the accent); the focused tile lights up and grows. They follow the posters' transparency, as every screen does.
+- The apps below them peek from the bottom of the screen; Down lifts the HUB away and the apps rise - YouTube, Music, and Plex, Jellyfin and Emby, which come later. The row stands still, only the cursor goes from app to app; the focused app lights up and grows.
+
+**Music**
+- A whole music app on MegaNexus' own Home: Recently played, Your playlists, For you, Your artists, New from your artists, Artists like yours and the charts, in square cards (artists in circles). The first time it asks which artists you follow, by genre - each profile its own, nobody else sees your songs.
+- Library (your saved songs, albums, artists and playlists), Search, an artist's albums, singles & EPs, popular songs and fans also like, an album's or a playlist's page.
+- The songs play from your sources (Eclipse music add-ons - you add their links, MegaNexus never runs their code and skips encrypted ones), your debrid cloud (the music in your TorBox or Real-Debrid) and, last, YouTube - only the artist's own channel with the same title and length, never an almost-the-same song. The order is yours (Settings › Music › Songs play from).
+- Catalogues: Deezer, Apple Music, or Spotify with your own Spotify app. Playlists brought in from Spotify, Deezer and YouTube links, CSV (Exportify, TuneMyMusic, Soundiiz) and M3U files show on the app's Home.
+- The music never stops: songs like the last one follow when the queue ends; one song fades into the next, the next started a moment early. Shuffle and Repeat.
+- It plays on through all of MegaNexus and under the screensaver. A film, a trailer or a YouTube video pauses it and keeps its place: Play goes on from the same second.
+- While a song plays its icon stands by your profile, a ring filling as it goes: Right from any screen's top bar (Up from the HUB's tiles) and OK opens the small player - Previous, Play / Pause, Next, Shuffle, Repeat, a bar to seek and Stop. Now playing shows the song's picture over the whole screen; "Playing from" says where the song comes from.
+- Settings › Music and the phone page's Apps tab: sources, playlists, artists you follow, YouTube, your cloud, the order, catalogues, your Deezer profile and music folders.
+
+**YouTube**
+- YouTube in MegaNexus' own screen: categories in rows (live, music, gaming, sports, news, trailers, podcasts, football and more), Search, and your channels in circles at the bottom of Home. A card's options open, add or remove its channel.
+- OK plays a video small at the top - its title, channel, LIVE, length, views and age beside it - and it plays on while you browse; OK again (or the round play by HUB) opens Kodi's player with Up next, Previous / Next and Autoplay.
+- Videos play through Kodi's YouTube add-on, installed and set up before the app opens the first time. Nothing of YouTube is kept once the app closes, except your channels.
+- Known: without a sign-in YouTube can send a stream whose sound starts a few seconds after the picture and which stops on a long seek - Kodi's YouTube add-on 7.4.4 and YouTube, not MegaNexus.
+
+**Collections and add-ons**
+- Choose what Home shows - your collections, the MegaNexus Catalog or one add-on's catalogs - on the phone (Collections › Home shows) or HUB Settings › Collections & Home rows › Home shows; then show, hide and order its rows and cards as before. Your own collections are kept aside and come back as they were. An add-on that asks a genre on every catalog (AIOMetadata) can be chosen too.
+- Every add-on that offers metadata or catalogs is used: search, Browse all, trailers, More like this and Next episode no longer ask one add-on by name (BingeCat's lists and its AI search beside AIOMetadata). A newly added add-on is switched on at once for what it offers.
+
+**Fixes**
+- A show saved under two ids (IMDb, TMDB, TVDB) is one show: removed from Continue Watching it stays removed under both, one Next episode card, no stale card at the start (GitHub #31).
+- Your Home layout is no longer replaced by an automatic one after going back to the HUB or a restart (GitHub #32).
+- Remove from Continue Watching takes the card away at once.
+- An IPTV channel no longer shows the music icon by the profile.
+- The quick setup's collections follow its add-on when it had to be made again.
+
 ## 9.0.5
 
 One Library, AI subtitles you can trust, quicker everywhere.
