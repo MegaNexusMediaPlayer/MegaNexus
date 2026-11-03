@@ -1,5 +1,24 @@
 # Changelog
 
+## 9.0.7
+
+Fixes for Amlogic devices and AFR on YouTube.
+
+**Amlogic devices (Fire TV Cube, CoreELEC)**
+- No more freezes or restarts while YouTube songs play: songs come as one whole stream (Settings › YouTube › Steady playback).
+- No stall between two songs; a song that cannot play is passed at once.
+- The screensaver comes over the music, and stays when the next song starts; the song's video no longer shows through the screens.
+- An album's songs sit in their pill (bigger rows).
+
+**AFR**
+- The TV no longer switches its refresh rate for the YouTube app's videos, trailers or songs.
+
+**Music**
+- The song you choose is the one that plays - one that cannot play says so, it never plays another in its place.
+- YouTube: a label's own upload (YouTube-verified) plays too; never a lyric video, a live, remix or sped-up version in place of the song; 4K uploads are left out (their sound did not come).
+- First start: choose the artists you follow by part of the world (US, World, Europe, Asia, Balkan), every genre.
+- When the queue ends the music goes on with the artist's songs or similar ones; a playlist goes round.
+
 ## 9.0.6
 
 Apps on the HUB - YouTube and Music; a new HUB; every add-on used.
