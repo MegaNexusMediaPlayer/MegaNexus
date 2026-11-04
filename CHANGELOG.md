@@ -1,5 +1,40 @@
 # Changelog
 
+## 9.0.8
+
+No more freezes, Home rows from your tracking, YouTube for your region.
+
+**Freezes and the player**
+- Kodi updating MegaNexus from its repository while MegaNexus was open could make the whole box stand still - fixed: nothing in MegaNexus waits on Kodi's main thread any more (stopping or pausing a film, a channel or a song, closing a window, a skin switch, installing an add-on), and the service stops at once when Kodi asks.
+- Leaving a film right after Autosync or AI subtitles: nothing of the subtitles touches the player any more while it closes (wrong colours after a Dolby Vision film).
+- Leaving a film waits until it is really closed, so its place is saved before the title page reads it.
+- Smaller memory use: the intro-skip data of the last 8 shows only.
+
+**Home rows: Watchlist and Next episodes**
+- Two new rows, off until you switch them on (HUB Settings › Collections & Home rows › Home rows, or the phone page): your Watchlist and Next episodes - the next episode of every show you watch, also when a new season comes out.
+- Each row takes its titles from the service you choose: Trakt, Simkl, MDBList, WeTrakr or all of them (Watchlist); Trakt's Up Next, Simkl or your MegaNexus history (Next episodes). Switched on, a row comes right under Continue Watching and can be moved like the others.
+- A show marked watched to the end on any service is not offered again; a show Continue Watching already shows is never there twice.
+
+**Tracking**
+- Trakt: the whole watchlist (only its first page came); a film paused in its first minute no longer gets a 422.
+- Simkl: an unknown title no longer holds back everything after it; other services' watched marks are no longer written as Simkl's.
+- Next episodes in Continue Watching are asked for all shows at once (faster), and a kept episode list is not written again when nothing changed.
+- Anime episodes from Nuvio stay episodes (they came back as films).
+
+**Music**
+- A film, an episode, an IPTV channel or Live Sport ends the music (a trailer or a YouTube video still pauses it).
+- Back on the app's Home goes to its HUB button - what plays goes on; OK on HUB leaves the app.
+- The album page no longer blinks when a song starts; an IPTV channel is never taken for a song; the small player's lines never lie over each other.
+- Help › Music: Deezer through your own account (Ultra MAX, your ARL), step by step.
+
+**YouTube**
+- A row from your region (From Croatia, From Germany...) - its news, music, trailers and more in your language, in turn.
+- The other rows as on YouTube, mostly English, this month and ranked for your region - without another region's videos (another script, another country's or language's channels), unless that is your region. No Football row (Sports is there); Cars are car reviews.
+- Settings › YouTube › Rows on Home: which rows show. Back on Home goes to the HUB button, the video plays on.
+
+**Backup**
+- A backup holds the Music and YouTube apps too (sources, saved songs, artists, playlists, folders, channels) and your own collections kept aside; a music source's link (its ARL or key) only in a full backup.
+
 ## 9.0.7
 
 Fixes for Amlogic devices and AFR on YouTube.
