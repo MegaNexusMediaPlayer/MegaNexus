@@ -1,5 +1,33 @@
 # Changelog
 
+## 9.0.9
+
+Continue Watching like the Nuvio apps, your collections as poster rows, YouTube that keeps playing.
+
+**Continue Watching**
+- An episode started after the one before it was watched is there - also one started on another device for a few seconds, or one stopped half way right after the previous one ended (they disappeared).
+- One order for every card, newest first, as in the Nuvio apps: a show's next episode stands where you watched the show, one out since then at its own day. The next episodes no longer wait at the end of the row; the film you just stopped stays first.
+- The next episodes of the days ahead: the season's next one on its day ("Saturday", "20 Nov"), a new season's first within a week. One already out comes before tomorrow's.
+- Up to 100 titles of the whole period you chose - it stopped at 50, and showed fewer once its rules had left some out.
+
+**Home rows**
+- Show as: each row of your collections as cards (as before) or as poster rows - each collection its own row of posters right on Home, its Movies and Series as two when it has both. HUB Settings › Collections & Home rows › Home rows, or the phone page (Collections).
+- Move up / Move down on the TV too. Each row says what it is (Cards, Poster rows, Hidden) and opens its own page - it looked like an On/Off switch.
+
+**YouTube**
+- Steady playback for everyone: the YouTube add-on's own quality (up to 1080p, live too) - MPEG-DASH stopped after a minute or a seek on many devices. 4K (DASH) only when you choose it, never on Amlogic boxes; the YouTube add-on's setup wizard no longer switches DASH back on.
+- The region and language set in the YouTube add-on count - the row from your region in its language.
+
+**Playback**
+- No "Playback failed" box while the next source is tried - only when none of them plays.
+- An episode resumed after a source that did not open no longer starts without sound.
+
+**Watchlist and Next episodes**
+- Every card has its description.
+
+**Music**
+- The picture at the top of an album or artist page has its rounded corners - its mask was missing.
+
 ## 9.0.8
 
 No more freezes, Home rows from your tracking, YouTube for your region.
