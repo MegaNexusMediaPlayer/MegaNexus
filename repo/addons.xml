@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.meganexus" name="MegaNexus Hub" version="9.0.8" provider-name="MegaNexus">
+<addon id="plugin.video.meganexus" name="MegaNexus Hub" version="9.0.9" provider-name="MegaNexus">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="xbmc.gui" version="5.17.0" />
@@ -17,22 +17,22 @@
     <summary lang="en_GB">MegaNexus Hub: the backend and the complete MegaNexus installer.</summary>
     <description lang="en_GB">Backend for the MegaNexus interface and skin. Metadata add-ons supply catalog metadata; individually enabled stream add-ons supply sources in their original order. Includes local component installation, account sync, Continue Watching and playback services. Manual bundle ZIP updates only.</description>
     <disclaimer lang="en_GB">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
-    <news>MegaNexus 9.0.8 - no more freezes, Home rows from your tracking, YouTube for your region.
-- Freezes: Kodi updating MegaNexus while it was open could stand still for good - fixed; nothing waits on Kodi any more.
-- Home rows: Watchlist and Next episodes (the next episode of every show you watch, also a new season) - off until you switch them on, from the tracking service you choose.
-- YouTube: a row from your region in your language; the other rows without another region's videos; Rows on Home.
-- Music: a film, an episode or a channel ends the music; Back goes to the HUB button; the album page no longer blinks.
-- Backup holds the Music and YouTube apps; Trakt's whole watchlist; a guide to Deezer through your own account (ARL).</news>
+    <news>MegaNexus 9.0.9 - Continue Watching like the Nuvio apps, your collections as poster rows, YouTube that keeps playing.
+- Continue Watching: an episode started after the one before is there; one order for every card, newest first; the next episodes of the days ahead; up to 100 titles.
+- Home rows: each row of your collections as cards or as poster rows right on Home; Move up / Move down on the TV too.
+- YouTube: steady playback for everyone (up to 1080p); 4K only when you choose it, never on Amlogic boxes; the region set in the YouTube add-on counts.
+- No "Playback failed" box while the next source is tried; no muted start after a source that did not open.
+- Watchlist and Next episodes: every card has its description.</news>
     <assets>
       <icon>resources/media/meganexus_icon.png</icon>
       <fanart>resources/media/meganexus_fanart.png</fanart>
     </assets>
   </extension>
 </addon>
-<addon id="script.meganexus" name="MegaNexus" version="9.0.8" provider-name="MegaNexus">
+<addon id="script.meganexus" name="MegaNexus" version="9.0.9" provider-name="MegaNexus">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
-    <import addon="plugin.video.meganexus" version="9.0.8" />
+    <import addon="plugin.video.meganexus" version="9.0.9" />
   </requires>
   <extension point="xbmc.python.script" library="ui_entry.py">
     <provides>executable</provides>
@@ -49,10 +49,10 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.meganexus" version="9.0.8" name="MegaNexus Skin" provider-name="MegaNexus; Kodi foundation by Team Kodi">
+<addon id="skin.meganexus" version="9.0.9" name="MegaNexus Skin" provider-name="MegaNexus; Kodi foundation by Team Kodi">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
-    <import addon="script.meganexus" version="9.0.8" />
+    <import addon="script.meganexus" version="9.0.9" />
   </requires>
   <extension point="xbmc.gui.skin" debugging="false">
     <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
@@ -68,10 +68,10 @@
     </assets>
   </extension>
 </addon>
-<addon id="screensaver.meganexus" name="MegaNexus Screensaver" version="9.0.8" provider-name="MegaNexus">
+<addon id="screensaver.meganexus" name="MegaNexus Screensaver" version="9.0.9" provider-name="MegaNexus">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
-    <import addon="script.meganexus" version="9.0.8" />
+    <import addon="script.meganexus" version="9.0.9" />
   </requires>
   <extension point="xbmc.ui.screensaver" library="saver_entry.py" />
   <extension point="xbmc.addon.metadata">
