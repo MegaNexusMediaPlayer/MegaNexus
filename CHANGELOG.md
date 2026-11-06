@@ -1,5 +1,18 @@
 # Changelog
 
+## 9.1.0
+
+Dolby Vision in the right colours after a trailer, every title page opens, a quieter Stremio sync.
+
+**Playback**
+- A Dolby Vision or HDR film or episode started after a trailer or a preview could play in the wrong colours, and the TV's refresh-rate switch stayed off afterwards: the setting MegaNexus pauses for small videos was lost when an account sync saved the add-on's settings at the same moment. It is never lost now - it is kept in Kodi's memory as well, and the sync no longer saves an old copy of the settings. If your "Adjust display refresh rate" is off since 9.0.x without you switching it off, switch it on once more.
+
+**Title pages**
+- A film or series whose card carries a TMDB id (search, catalogs of some add-ons) had no Play - only "Retry details" - when your metadata add-on answers with the same title under its IMDb id and you have no TMDb key (Power Rangers, 2017). It opens now: the answer counts when its name and kind are the card's, and both ids are kept, so the sources are found too. Another title is still refused (GitHub #36).
+
+**Accounts**
+- The Stremio account import leaves out Stremio's own Local Files add-on - it belongs to the computer Stremio runs on, and with it disabled in Stremio Server every sync reported it unavailable (GitHub #33).
+
 ## 9.0.9
 
 Continue Watching like the Nuvio apps, your collections as poster rows, YouTube that keeps playing.
