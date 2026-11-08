@@ -53,7 +53,10 @@ accounts, servers and add-ons give you.
 ### 🏠 Watching
 - **Home** with Continue Watching, your collections and catalog rows, a big picture of the title under the cursor and its trailer — the sound fades in, never a blast.
 - **Title pages** with the full story, ratings (IMDb, Rotten Tomatoes, Metacritic, Letterboxd… via MDBList), reviews, seasons and episodes with their own ratings, cast, and *More like this*.
-- **Search** across all your metadata add-ons, a **Library** of what you saved, with a **Calendar** of when you added it.
+- **Search** across all your metadata add-ons, and a magnifier on every screen that searches it.
+- **Library** — everything you track in one place: MegaNexus, Trakt, Simkl, MDBList, WeTrakr, AniList and MyAnimeList, each with how many titles it holds.
+- **Calendar** — what comes out and what you watched, day by day, with the logo and plot of the title under the cursor.
+- **Top 10 rows** from TMDB, Trakt, Simkl or MDBList, with big numbers in the poster's colour.
 - **Trending now on TMDB**, release badges (*4K · HDR · Digital*), and unreleased titles hidden if you like.
 - **Who's watching?** — profiles with their own picture, PIN, tracking accounts and Continue Watching.
 - **Trailers in a blink** — the trailer link is found while the title page opens, so *Trailer* starts at once, and Back goes straight back to the page.
@@ -77,7 +80,7 @@ accounts, servers and add-ons give you.
 - **Skip intro / recap / outro** — only with trusted times (TheIntroDB, SkipDB), as a pill that empties while the part runs. OK skips, Back hides it.
 - **Next episode** at the right moment, as the next episode's picture (with TVmaze as a backup when the metadata doesn't know it).
 - **Resume quietly** — no sound burst while a resumed film finds its place; a stream that breaks off midway is kept where it stopped, not marked as watched.
-- **Dolby Vision diagnostics** — what the source is and how Kodi processes it, kept apart.
+- **Dolby Vision diagnostics** — what the source is and how Kodi processes it, kept apart; FEL or MEL on CoreELEC and on LibreELEC's Dolby Vision builds.
 
 ### 🔄 Your progress, everywhere
 - Sync with **Nuvio**, **Stremio**, **Trakt**, **Simkl**, **MDBList** and **WeTrakr** — progress, watched marks, watchlists and your library, both ways.
@@ -143,7 +146,7 @@ Windows, Linux or macOS. A debrid account is recommended for fast streams.
 3. **Add-ons → Install from repository → MegaNexus Repository → Video add-ons → MegaNexus Hub**.
 4. The interface, skin and screensaver install themselves. When Kodi asks to keep the MegaNexus skin, answer **Yes**.
 
-**Or from the zip:** download **`MegaNexus-Complete-9.1.0.zip`** from
+**Or from the zip:** download **`MegaNexus-Complete-9.1.1.zip`** from
 [Releases](https://github.com/MegaNexusMediaPlayer/MegaNexus/releases/latest) (not GitHub's
 "Source code" archive) → **Add-ons → Install from zip file**.
 

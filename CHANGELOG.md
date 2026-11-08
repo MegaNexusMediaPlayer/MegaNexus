@@ -1,5 +1,46 @@
 # Changelog
 
+## 9.1.1
+
+A Calendar, a new Library, Top 10 rows, AniList and MyAnimeList - and no black picture after a seek on CoreELEC cpm / avdvplus.
+
+**Playback**
+- A seek, a chapter skip or a resume turned the picture black while the sound went on, on CoreELEC "cpm" and "avdvplus" builds (Ugoos AM6B and others; GitHub #35, #37, #38). MegaNexus set the video driver's black-out (blackout_policy) to 1 before every film and every few seconds; these builds keep the last frame (0) and count on it during a seek. MegaNexus now notes the box's own value once per start and leaves it as it is - it keeps the frame only for small videos (trailers, Sport and IPTV previews), and only on boxes that black out by themselves. Restart the box once after updating.
+- The pause screen, 5 s into a pause: the picture, the logo or title, the plot, the clock with when it ends, and the cast (Kodi's dimming kept away; Settings › Playback).
+- The now-playing line over the title in the player: "4K · Dolby Vision · Dolby Atmos · English 5.1".
+
+**Calendar**
+- New, at the top of Home: the months from this one on as tiles in their own colours, with the year's last two digits in the big numbers; Left / Right past the ends goes a year on or back.
+- A day holds what comes out then - your series' episodes and your films (Trakt's calendar when connected), then TMDB's most popular - and after them what you finished that day here, on Nuvio, Trakt and Simkl, each title once. Every day is asked anew.
+- Its row at the foot of the screen with the date in the big numbers, Home's posters, and the logo, year and plot of the title under the cursor above them; Up / Down go a day back or on. It opens at once on today: the day is asked while the cursor stands on Calendar.
+- The magnifier finds when a title comes out or came out and when you watched it. Options: the titles under the cards and the day's title, the Calendar's own.
+
+**Library**
+- One Library for everything you track: a tile for each service (MegaNexus, Trakt, Simkl, MDBList, WeTrakr, AniList, MyAnimeList) with how many titles it holds in the big numbers, each one's sections in place. It opens on the service you left it on.
+- Its rows at the foot of the screen, one at a time - Down goes on to the next and from the last round to the first - with the logo, year and plot of the title under the cursor above them.
+- The top bar: the magnifier (it searches the Library), Home, Library, Options (Sort, Show, the titles under the cards, the rows' titles), Settings and HUB. Back goes up to Home there.
+- Browse all has a picture of its own, here and on Home.
+
+**Home**
+- Top 10 rows: any list - trending, popular, most watched, anticipated, a genre - from TMDB, Trakt, Simkl or MDBList, the big numbers in the poster's colour or one colour for all (Big numbers · colour).
+- The magnifier before Home in the top bar, Calendar where Search was. On every screen the magnifier searches that screen, the bar stays while the cursor is on it, and each screen has its own name in it.
+- Row titles off hides every row's title.
+
+**AniList and MyAnimeList**
+- Sign in on the phone page (HUB Settings › Accounts & tracking shows its QR code); an anime episode watched to its end is counted on your lists (the right part of a season, never lowered); their lists are in the Library, their marks on the posters.
+
+**Title pages and menus**
+- A long press says what it is about - Episode, Movie, Series or Anime options - with Choose stream manually first; a season's only option is Mark watched.
+- An actor's page with who they are (born, died, where, biography), quick to open.
+- The ratings of a series' episodes as a heatmap.
+
+**Everywhere**
+- The on-screen keyboard goes where the eye goes: a move onto a key the layout hides no longer jumps a row.
+- HUB Settings in the order things are set up; Home & library on one page; the whole look in Themes, colours & screensaver.
+
+**Diagnostics**
+- Dolby Vision on LibreELEC's x86 builds with Dolby Vision output: FEL or MEL is read from the stream's own RPU, and whether Dolby Vision goes to the TV from what the build reports - it said "no Dolby Vision output" there.
+
 ## 9.1.0
 
 Dolby Vision in the right colours after a trailer, every title page opens, a quieter Stremio sync.
