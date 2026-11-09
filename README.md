@@ -73,6 +73,7 @@ accounts, servers and add-ons give you.
 - **One button, every subtitle add-on** — the list opens at once and fills while the add-ons answer: add-ons on top, languages by their full name on the right with yours first, and where every subtitle comes from. The film waits while you choose; the file's own fingerprint (hash) marks the subtitles made for exactly your file.
 - **Autosync** — lines a subtitle up with the video's own subtitles, or with the timing most other subtitles agree on. No AI, no audio analysis, and it never makes a good subtitle worse.
 - **Checked by itself** — a subtitle from online is checked once in the background and lined up only when it is clearly off.
+- **In the language it says** — the video's own subtitle track in your language comes first, and a subtitle whose lines are in another language than it is called is passed over for the next one.
 - **AI subtitles in your language** — no subtitle in your language? Google Gemini translates one (one or two free keys), starting where you are watching and showing lines as they arrive. Names stay consistent with a glossary per series, and the translation is kept for next time.
 - **Anime done right** — long anime are found by their absolute episode number too (Naruto S5E7 = episode 186).
 
@@ -146,7 +147,7 @@ Windows, Linux or macOS. A debrid account is recommended for fast streams.
 3. **Add-ons → Install from repository → MegaNexus Repository → Video add-ons → MegaNexus Hub**.
 4. The interface, skin and screensaver install themselves. When Kodi asks to keep the MegaNexus skin, answer **Yes**.
 
-**Or from the zip:** download **`MegaNexus-Complete-9.1.1.zip`** from
+**Or from the zip:** download **`MegaNexus-Complete-9.1.2.zip`** from
 [Releases](https://github.com/MegaNexusMediaPlayer/MegaNexus/releases/latest) (not GitHub's
 "Source code" archive) → **Add-ons → Install from zip file**.
 

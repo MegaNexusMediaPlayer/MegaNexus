@@ -1,5 +1,31 @@
 # Changelog
 
+## 9.1.2
+
+Subtitles in the language they say, the right episode first, more of YouTube - and every title in the Library with its logo and plot.
+
+**Subtitles**
+- The video's own subtitle track in your language is put on first, before any is looked for.
+- A subtitle whose lines are in another language than it is called is passed over for the next one. OpenSubtitles has uploads under the wrong language (a Hungarian one named Croatian, for one). Every language is weighed the same way: by its alphabet, then by its most common words. Serbian and Bosnian are right in either alphabet.
+- Autosync no longer moves a subtitle that fits nowhere. A subtitle for another episode was moved by one or two minutes on pure chance; it now stays as it is.
+- A subtitle you pick yourself - in MegaNexus' list or in Kodi's own subtitle settings - is never changed by anything automatic afterwards, and subtitles you switch off stay off.
+
+**Sources**
+- A series' source whose name says another episode (S02E07 for S2E2, another chapter) goes to the end of the list, marked as such, and Autoplay never takes it first. A debrid torrent plays the file the index named.
+- Apple ProRes, DNxHD and CineForm sources go last on TV boxes (Amlogic, Android, ARM): no box decodes them in hardware, and one froze a Fire TV Cube. Started anyway, such a source is stopped at once and the next one plays.
+
+**Library and Calendar**
+- Every title under the cursor has its logo, plot, year, kind, genres and TMDB rating - Trakt's, Simkl's and MDBList's cards came with none of them. What MegaNexus was told before shows at once, the rest comes in place while you look (TMDB, else your metadata add-ons).
+- The plot keeps to three lines: as wide as before when it fits, across the screen when it does not, and cut at a word with "…" when even that is not enough.
+
+**YouTube**
+- Its rows go on as you near their end - they no longer stop after YouTube's first two pages.
+- Options in the app's top bar: the titles under the cards and the rows' titles (the app's own), which rows it shows (switched on and off at once), and Kodi's YouTube add-on's video quality, region and language, and Autoplay.
+- Rows to add (Options › Rows): Live · News, Sports, Gaming and Music, Documentaries, History, Animals, Kids, DIY & crafts, Fashion & beauty, Anime and Learning.
+
+**CoreELEC cpm, avdvplus and P3i**
+- If the picture still goes black after a seek, restart the box once - a full restart, not sleep. A box that ran MegaNexus 9.1.0 or older since its last start keeps the setting that version left until it restarts (GitHub #39).
+
 ## 9.1.1
 
 A Calendar, a new Library, Top 10 rows, AniList and MyAnimeList - and no black picture after a seek on CoreELEC cpm / avdvplus.
