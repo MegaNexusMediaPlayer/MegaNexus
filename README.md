@@ -101,6 +101,12 @@ songs play from your own music sources, your debrid cloud and, last, the artist'
 on through all of MegaNexus and under the screensaver, waiting for a film. **YouTube** is MegaNexus' own
 YouTube screen with categories, search and your channels. Plex, Jellyfin and Emby join them later.
 
+### 🎮 Retro, Guess It and Poker
+Games for the whole room: everyone on the TV's Wi-Fi scans one code and their phone is the controller -
+up to 8 players. **Retro** plays free classics that may be shared (the shareware of Doom, Heretic and Quake,
+Freedoom, Tyrian, Commander Keen, Cave Story and more) and the games in your own folders; **Guess It** is a
+film, series and actor quiz from TMDB; **Poker** is Texas Hold'em at a 3D table, each phone holding its own cards.
+
 ### 📺 Live TV and Sport
 IPTV (Xtream or M3U, several lists) with guide, preview, catch-up and channel groups; the films and
 series of your list appear as sources; a Sport screen for live events.
@@ -147,7 +153,7 @@ Windows, Linux or macOS. A debrid account is recommended for fast streams.
 3. **Add-ons → Install from repository → MegaNexus Repository → Video add-ons → MegaNexus Hub**.
 4. The interface, skin and screensaver install themselves. When Kodi asks to keep the MegaNexus skin, answer **Yes**.
 
-**Or from the zip:** download **`MegaNexus-Complete-9.1.2.zip`** from
+**Or from the zip:** download **`MegaNexus-Complete-9.1.3.zip`** from
 [Releases](https://github.com/MegaNexusMediaPlayer/MegaNexus/releases/latest) (not GitHub's
 "Source code" archive) → **Add-ons → Install from zip file**.
 

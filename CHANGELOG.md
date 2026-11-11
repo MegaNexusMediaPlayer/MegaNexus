@@ -1,5 +1,33 @@
 # Changelog
 
+## 9.1.3
+
+Retro games, Guess It and Poker played with phones, what really goes to the TV in the diagnostics - and no more memory filling up after a game.
+
+**Retro, Guess It and Poker (HUB)**
+- A new row under the HUB's apps: Retro, Guess It and Poker. Everyone on the TV's Wi-Fi scans one code and plays with their phone - up to 8 phones at once, each one the next player.
+- Retro plays free classics that may be shared - Doom, Heretic and Quake (their shareware), Freedoom 1 and 2, Tyrian 2.1, Commander Keen 4, Bio Menace, SkyRoads, One Must Fall 2097, Cave Story, Mr.Boom, Apotris and MeteoRain - and the games in your own folders, with their pictures and consoles. Each download is checked against its known checksum.
+- Each phone gets the game's own controller and starts games and opens their menu. MegaNexus' own phone-pads add-on carries the phones into the game on Android, Linux (CoreELEC, LibreELEC) and Windows, Kodi 21 and 22. A Bluetooth controller plays along.
+- Guess It: a party quiz from TMDB - films, series and actors from stills, posters, faces, taglines and plots; four answers, points for speed, the scores every five questions and a podium. Phones answer; with no phone, the remote plays. Nothing of the answer shows behind a question.
+- Poker: no-limit Texas Hold'em for 2 to 8 players on a 3D table with everyone's name, chips and bets. Each phone holds its own two cards - face up only while a finger is on them - with Fold, Check / Call and Raise (Min, ½ Pot, Pot, All-in). Starting chips, blinds and time to play to choose; the blinds double every 10 hands, and a player whose phone is gone checks or folds after 10 seconds.
+
+**Diagnostics**
+- What really goes out to the TV and the receiver, on every system: the signal, its colour format and bits, what the TV and the receiver take, and the audio as it leaves the box (Amlogic, Linux, Android).
+- Pixel format in plain words - "YUV 4:2:0 · 10-bit". With a hardware decoder, the bits only when the system or the film's own Dolby Vision metadata gives them, never a guess.
+- Dolby Vision profile and pixel format are no longer "Unknown" on CoreELEC avdvplus (GitHub #40).
+- LibreELEC's Dolby Vision builds: whether their own engine composes the full enhancement layer (FEL), as CroqueMr's CB1 and LibreELEC Hades report it, and why not when they fall back.
+
+**Stream badges**
+- Nuvio badge packs written for JavaScript import: letters and digits of every script and the look-ahead checks of resolution rules (FR-Badges: 238 of its 239 rules; GitHub #41). A rule Kodi cannot run is left out and named, instead of the whole pack being refused.
+
+**Watch Party**
+- Relays come from a list MegaNexus publishes, are checked before they are used, are rested when they refuse, and the host shares theirs with everyone in the party.
+
+**Memory and stability**
+- Every closed screen - Home, a game, Guess It, Poker - stayed in Kodi's memory until Kodi itself closed, so a box slowed down after a few games. They are now freed as they close, and a game lets go of the phones at once.
+- Kodi could crash when Retro closed while a phone was still a controller.
+- On Kodi 21 for Windows, Retro, Music and Sport now close properly.
+
 ## 9.1.2
 
 Subtitles in the language they say, the right episode first, more of YouTube - and every title in the Library with its logo and plot.
