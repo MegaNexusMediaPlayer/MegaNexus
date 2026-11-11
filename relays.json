@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "relays": [
+    "wss://relay.damus.io",
+    "wss://nos.lol",
+    "wss://relay.primal.net",
+    "wss://nostr.mom",
+    "wss://offchain.pub",
+    "wss://relay.snort.social"
+  ]
+}
