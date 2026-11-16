@@ -1,5 +1,14 @@
 # Changelog
 
+## 9.1.5
+
+The source list keeps the big files first again.
+
+**Sources**
+- Choose stream and Autoplay put large files under small ones for up to an hour: with "No limit" for the size, every file above 80% of the measured network speed went down, and one measurement taken while Home was loading read 7.7 Mbit/s on a 77 Mbit/s line (a 5.5 GB limit for a film).
+- "No limit: fit the network speed" is now off for everyone, and new installations start with it off. Switch it on again in Settings > Playback > Automatic stream choice if you want it.
+- Switched on, it uses the better of the last two measurements, and a measurement under half the one before is taken again after 5 minutes - a busy line no longer counts as a slow one.
+
 ## 9.1.4
 
 A screen after every film and episode, Plex, Jellyfin and Emby as apps of their own, collections that open at once after a film - and Kodi no longer growing while a film plays.
