@@ -1,5 +1,54 @@
 # Changelog
 
+## 9.1.4
+
+A screen after every film and episode, Plex, Jellyfin and Emby as apps of their own, collections that open at once after a film - and Kodi no longer growing while a film plays.
+
+**After the film**
+- A screen of its own when you leave a film or an episode: its picture, how far you got ("You stopped at 23 min · 54% left · 27 min to go", or "You finished the episode") and a bar that fills with it.
+- The places your watch was saved to come in one by one - MegaNexus, Nuvio, Trakt, Simkl, MDBList, WeTrakr - each only once it has said it took it.
+- Rate it at once with 1 to 10 stars (Trakt and TMDB, the ones you are signed in to), or Write a review on your phone through its code.
+- A series offers its next episode in the corner, a film four titles like it. Exit (where the cursor waits) and Back go back where you started it - drawn behind the screen meanwhile, so nothing flashes and nothing is slow.
+- The weather, the clock and your profile stay at the top.
+
+**Faster**
+- Collections opened right after a film: 0.15-0.35 s on a Fire TV Cube instead of 3.5 s - they are read into memory while the screen after the film is up.
+- A collection opens from memory the first time too; the tiles around the cursor are read ahead, and that waits while a collection opens.
+- Leaving Settings rebuilds Home only when one of your settings changed.
+- Home and the collections no longer redraw a whole row card by card when Continue Watching changes after a film.
+
+**Plex, Jellyfin and Emby**
+- Each server is an app of the HUB with MegaNexus' Home: the server's own rows (Plex's home hubs; Continue Watching, Next Up and each library's Latest), every library, Libraries, Options and the server's settings.
+- Local media: films and series in one row, each folder a row of its own or a tile under its own name. All local movies / series opens on MegaNexus' own page, as Browse all (GitHub #46).
+
+**Continue Watching**
+- A show whose episode Trakt, Simkl or MDBList has as watched gets its next episode - WandaVision had no card at all after an episode left at 88% (those services count it from 80%). The share that counts as watched is your setting everywhere.
+- An episode or film left in its end credits counts as watched, when TheIntroDB, SkipDB or your media server know where the credits begin.
+- While a film plays its progress goes to Nuvio once a minute; stopped or ended, at once as before.
+
+**Playback**
+- A film or episode never starts muted.
+- Watch next also works over a film you went back to through Now playing.
+- The player's Picture size button: Kodi's view modes, for films with black bars.
+- A series' source that names another show by its release name goes last and says so.
+- A subtitle in your language is looked for again every 15 s for a minute when none came at the start.
+
+**Memory and stability**
+- Kodi grew by about 94 MB an hour while a film played (a call that keeps a copy of the playing item in Kodi each time it is made, asked twice a second). It is asked once per film now.
+- The poster preload hands Kodi one picture at a time when memory is short, leaving out the video decoder's reserve - on a 2 GB box the system closed Kodi in the night.
+- The screensaver could freeze Kodi on waking, and its weekly picture sweep threw away the collection posters the preload had stored.
+- Memory is given back between episodes.
+
+**Usenet, badges and more**
+- Several Usenet providers, the first the main one (GitHub #43).
+- Badge packs: up to 512 filters and longer patterns - FR-Badges' language rules work (GitHub #45).
+- Guess It says in its lobby that it needs a TMDB key; the phone window opens without an error (GitHub #44).
+
+**Diagnostics**
+- The FPS tile shows Kodi's count with two decimals, and the small tiles beside a video fit their numbers.
+- The mode row names the film's frame rate beside the screen's exact rate and how they meet: matched, a frame repeated every so often, or 3:2 pulldown.
+- The start box shows Dolby Vision or HDR for such a film while the HDMI still says SDR; LibreELEC CB1 / Hades: Dolby Vision in its RGB tunnel reads as Dolby Vision.
+
 ## 9.1.3
 
 Retro games, Guess It and Poker played with phones, what really goes to the TV in the diagnostics - and no more memory filling up after a game.
