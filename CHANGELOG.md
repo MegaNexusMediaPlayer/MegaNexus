@@ -1,5 +1,14 @@
 # Changelog
 
+## 9.1.6
+
+Plex, Jellyfin and Emby show their rows again.
+
+**Plex, Jellyfin and Emby**
+- Their apps opened with every row empty since 9.1.4: the rows were made, but never asked the server for their titles. They load again as you move to them (#49).
+- A library row goes on loading as you scroll near its end, instead of stopping after the first 40 titles.
+- A row whose server did not answer says so, and selecting it asks again.
+
 ## 9.1.5
 
 The source list keeps the big files first again.
