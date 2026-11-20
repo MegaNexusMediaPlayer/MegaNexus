@@ -1,5 +1,14 @@
 # Changelog
 
+## 9.1.7
+
+Sign in to Nuvio with a QR code.
+
+**Nuvio account**
+- Nuvio now refuses email-and-password sign-ins from MegaNexus ("Too many requests"), even on the first try, while devices already signed in keep working (#50, #53, #55). Sign in now works the way the Nuvio TV app does: MegaNexus shows a QR code and a short code; open nuvio.tv/link on your phone, sign in there and confirm. No password goes through the box.
+- Settings > Accounts > Nuvio account: Sign in · QR code, Sign in with email and password, Sign in with email on your phone. The first start's Connect Nuvio account uses the QR code.
+- A failed sign-in says why (too many tries, wrong details, not reachable, Nuvio not answering) and writes the reason to the log, never the email or password.
+
 ## 9.1.6
 
 Plex, Jellyfin and Emby show their rows again.
