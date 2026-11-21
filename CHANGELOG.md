@@ -1,5 +1,40 @@
 # Changelog
 
+## 9.2.0
+
+A new look, MegaIPTV and MegaSport as apps, and MultiView.
+
+**The new look**
+- Bigger cards everywhere, the title's picture across the whole top and its trailer behind the page.
+- The HUB: every app a tile - MegaNexus, MegaIPTV, MegaSport, YouTube, Music, Plex, Jellyfin, Emby and the games (Retro, Guess it!, Poker); HUB Settings, Kodi Settings and Power are round buttons.
+- Every screen's top bar is round icons with the name of the one under the cursor; the player's buttons are one round row.
+- Three sets of letters (Themes > Letters): Barlow, Poppins and Fira Sans, with an outline over pictures. Every description shows whole lines - nothing cut at its foot - and on Home it reaches down to the next row's name, on a title's page down to its buttons.
+- A title or description in a script these letters do not have (Korean, Chinese, Japanese...) comes in English from TMDB instead of boxes.
+- Studios' logos lead the release row; a card's banner (New tomorrow, Next episode) is as tall as the watched mark.
+
+**MegaIPTV**
+- Your IPTV lists as Home-style rows: Live TV (Last played first, then your groups), Movies and Series.
+- In the player: Channels as small tiles over the picture, Previous / Next, Last channels, Catch-up and From start from the server's archive.
+- Options: which rows show and in what order.
+
+**MegaSport**
+- Live scores of every sport (live, today, coming up), league tables and your favourite teams and leagues - their next matches and results.
+- Each match shows the streams of your sport add-ons and the IPTV channel that shows it; Remind me on a match that has not started.
+
+**MultiView**
+- Two to four channels and streams in one picture (the player's MultiView button, or MegaSport's MultiView): the cursor's tile is the one you hear, OK plays it alone, Add channel, Layout, Take out and Close under the tiles.
+- At most one IPTV channel (an IPTV provider serves one connection); the others are live streams of your sport add-ons.
+- Needs ffmpeg - on CoreELEC / LibreELEC the "ffmpeg tools" add-on of their repository (MegaNexus offers it).
+
+**And**
+- Subtitles in MegaNexus' letters and four sizes (Settings > Playback & subtitles > Subtitles).
+- After "Who's watching?", an option to go straight to MegaNexus instead of the HUB (Settings > Profiles).
+- Nuvio signs in with its QR code only (Nuvio refuses e-mail and password sign-ins from TVs).
+- A series is marked watched only once every aired episode is; a service's newer watch wins over an older mark set by hand.
+- Music add-ons can be added from the phone page's Add-ons tab too.
+- The backup also holds the subtitles' font and size, the Library's sections and place, the Games app's folders, the watched marks set by hand, MegaSport's reminders and the Plex and WeTrakr sign-ins.
+- The user guide (HUB Settings > Help & diagnostics, and the phone's Help tab) tells all of this.
+
 ## 9.1.7
 
 Sign in to Nuvio with a QR code.

@@ -1,66 +1,91 @@
 # Screenshots
 
-MegaNexus 9.0.0 on a PC (Kodi 22). It looks the same on Android TV, Fire TV and CoreELEC.
+MegaNexus 9.2.0 on a PC (Kodi 22), the new look. It looks the same on Android TV, Fire TV and CoreELEC.
 
-▶️ **[Watch MegaNexus 9.0.0 in action (video)](https://github.com/MegaNexusMediaPlayer/MegaNexus/releases/download/v9.0.0/MegaNexus-9.0.0-preview.mp4)**
+## The HUB
+
+Kodi's own home, turned into a HUB: every app a tile, what is trending on TMDB behind them.
+
+![The HUB](screenshots/hub.jpg)
+
+Down from the first tiles: Music, Plex, Jellyfin and Emby ...
+
+![Apps on the HUB](screenshots/hub-apps.jpg)
+
+... and the games for the whole room, played with your phones.
+
+![Games on the HUB](screenshots/hub-games.jpg)
 
 ## Home
 
-Continue Watching, ratings from every service, and the title under the cursor in big.
+Big cards, the title under the cursor across the top with its trailer behind, Continue Watching first.
 
-![Home](screenshots/home.png)
+![Home](screenshots/home.jpg)
 
-## Collections
+Top 10 rows from TMDB, Trakt, Simkl or MDBList, with big numbers.
 
-Your collections as rows of cards — here the streaming services.
+![Top 10](screenshots/home-top10.jpg)
 
-![Collections](screenshots/collections.png)
+## Library
 
-## The MegaNexus HUB
+Everything you track in one place - each service with how many titles it holds.
 
-Kodi's own home, turned into a HUB: what is trending on TMDB, and every part of MegaNexus one click away.
+![Library](screenshots/library.jpg)
 
-![The MegaNexus HUB](screenshots/hub.png)
+## Calendar
 
+What comes out, day by day, the title under the cursor at the top.
 
-## Apps on the HUB (9.0.6)
+![Calendar](screenshots/calendar.jpg)
 
-Down from the HUB's tiles: YouTube and Music - Plex, Jellyfin and Emby come later.
+## MegaIPTV
 
-![Apps on the HUB](screenshots/hub-apps.png)
+Your IPTV lists as rows: Live TV, the channel under the cursor with what is on now and next.
 
-## HUB Settings
+![MegaIPTV](screenshots/megaiptv.jpg)
 
-Everything in one place: set up on phone, profiles, API keys, accounts, add-ons, debrid and storage.
+The guide, group by group.
 
-![HUB Settings](screenshots/hub-settings.png)
+![MegaIPTV's guide](screenshots/megaiptv-guide.jpg)
 
-## Native posters
+Your list's films and series as rows of posters.
 
-Performance & image cache → Picture path → vfs.meganexus: the recommended, faster way to load pictures.
+![MegaIPTV's films](screenshots/megaiptv-movies.jpg)
 
-![Native posters](screenshots/picture-path.png)
+## MegaSport
 
-## Who's watching?
+Live scores of every sport: live, today and coming up.
 
-Profiles with their own picture, PIN, accounts and Continue Watching.
+![MegaSport](screenshots/megasport-scores.jpg)
 
-![Who's watching?](screenshots/profiles.png)
+League tables.
 
-## Live Sport
+![League tables](screenshots/megasport-tables.jpg)
 
-Today's events with reminders when they start.
+Your favourite teams: their next matches and results.
 
-![Live Sport](screenshots/sport.png)
+![Favourites](screenshots/megasport-favourites.jpg)
 
-## Live TV
+A match: the streams of your sport add-ons and the IPTV channel that shows it.
 
-IPTV lists with categories, preview and the guide.
+![A match](screenshots/sport-match.jpg)
 
-![Live TV](screenshots/live-tv.png)
+## YouTube
 
-## MegaNexus Ambient
+MegaNexus' own YouTube screen: categories, search and your channels.
 
-The screensaver with what is trending, clock, weather and calendar — and its settings panel.
+![YouTube](screenshots/youtube.jpg)
 
-![MegaNexus Ambient](screenshots/screensaver.png)
+## Music
+
+Recently played, For you, the artists you follow ...
+
+![Music](screenshots/music.jpg)
+
+... and the song playing, on through all of MegaNexus.
+
+![Now playing](screenshots/music-now-playing.jpg)
+
+---
+
+▶️ **[MegaNexus 9.0.0 in action (video, the earlier look)](https://github.com/MegaNexusMediaPlayer/MegaNexus/releases/download/v9.0.0/MegaNexus-9.0.0-preview.mp4)**

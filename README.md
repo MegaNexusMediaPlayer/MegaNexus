@@ -33,20 +33,32 @@ the links to play, subtitle add-ons bring the subtitles.
 MegaNexus is free for personal use. It does not host or provide any media: it plays what your own
 accounts, servers and add-ons give you.
 
+## 🆕 MegaNexus 9.2 — the new look
+
+The look we set as our next goal is here: bigger cards, the title across the whole screen, every app a tile on the HUB,
+round icons on every screen — and **MegaIPTV**, **MegaSport** and **MultiView**.
+
 <p align="center">
-  <img src="docs/screenshots/home.png" alt="Home with Continue Watching, ratings and the title under the cursor" width="49%">
-  <img src="docs/screenshots/collections.png" alt="Collections: streaming services" width="49%">
+  <img src="docs/screenshots/hub.jpg" alt="The HUB: every app a tile, what is trending on TMDB behind it" width="49%">
+  <img src="docs/screenshots/home.jpg" alt="Home: big cards, the title across the top, Continue Watching" width="49%">
 </p>
 <p align="center">
-  <img src="docs/screenshots/hub.png" alt="The MegaNexus HUB with what's trending on TMDB" width="32%">
-  <img src="docs/screenshots/sport.png" alt="Live Sport" width="32%">
-  <img src="docs/screenshots/screensaver.png" alt="MegaNexus Ambient screensaver" width="32%">
+  <img src="docs/screenshots/megaiptv.jpg" alt="MegaIPTV: your channels as rows, the one under the cursor at the top" width="32%">
+  <img src="docs/screenshots/megaiptv-guide.jpg" alt="MegaIPTV's guide" width="32%">
+  <img src="docs/screenshots/megasport-scores.jpg" alt="MegaSport: live scores of every sport" width="32%">
 </p>
 <p align="center">
-  <img src="docs/screenshots/hub-apps.png" alt="Apps on the HUB: YouTube, Music, Plex, Jellyfin and Emby" width="98%">
+  <img src="docs/screenshots/megasport-tables.jpg" alt="MegaSport: league tables" width="32%">
+  <img src="docs/screenshots/music.jpg" alt="The Music app" width="32%">
+  <img src="docs/screenshots/youtube.jpg" alt="The YouTube app" width="32%">
+</p>
+<p align="center">
+  <img src="docs/screenshots/home-top10.jpg" alt="Top 10 rows with big numbers" width="32%">
+  <img src="docs/screenshots/library.jpg" alt="The Library: every service you track, with its count" width="32%">
+  <img src="docs/screenshots/calendar.jpg" alt="The Calendar: what comes out, day by day" width="32%">
 </p>
 
-<p align="center">▶️ <b><a href="https://github.com/MegaNexusMediaPlayer/MegaNexus/releases/download/v9.0.0/MegaNexus-9.0.0-preview.mp4">Watch MegaNexus 9.0.0 in action (video)</a></b> · 🖼️ <a href="docs/SCREENSHOTS.md">All screenshots</a></p>
+<p align="center">🖼️ <b><a href="docs/SCREENSHOTS.md">All screenshots</a></b> · ▶️ <a href="https://github.com/MegaNexusMediaPlayer/MegaNexus/releases/download/v9.0.0/MegaNexus-9.0.0-preview.mp4">MegaNexus 9.0.0 in action (video, the earlier look)</a></p>
 
 ## ✨ Everything it does
 
@@ -79,6 +91,7 @@ accounts, servers and add-ons give you.
 
 ### ▶️ The player
 - **Skip intro / recap / outro** — only with trusted times (TheIntroDB, SkipDB), as a pill that empties while the part runs. OK skips, Back hides it.
+- **One round row of buttons** — subtitles, audio, sources, MultiView, Info and the rest, each with its name under the cursor.
 - **Next episode** at the right moment, as the next episode's picture (with TVmaze as a backup when the metadata doesn't know it).
 - **Resume quietly** — no sound burst while a resumed film finds its place; a stream that breaks off midway is kept where it stopped, not marked as watched.
 - **Dolby Vision diagnostics** — what the source is and how Kodi processes it, kept apart; FEL or MEL on CoreELEC and on LibreELEC's Dolby Vision builds.
@@ -99,7 +112,8 @@ Under the HUB's tiles, the apps. **Music** is a whole music app - Recently playe
 you follow and artists like them, playlists brought in from Spotify, Deezer, YouTube or a CSV / M3U file;
 songs play from your own music sources, your debrid cloud and, last, the artist's own YouTube channel,
 on through all of MegaNexus and under the screensaver, waiting for a film. **YouTube** is MegaNexus' own
-YouTube screen with categories, search and your channels. Plex, Jellyfin and Emby join them later.
+YouTube screen with categories, search and your channels. **Plex, Jellyfin and Emby** have apps of their own too.
+Music add-ons (Eclipse) are added on the TV or from the phone.
 
 ### 🎮 Retro, Guess It and Poker
 Games for the whole room: everyone on the TV's Wi-Fi scans one code and their phone is the controller -
@@ -107,9 +121,10 @@ up to 8 players. **Retro** plays free classics that may be shared (the shareware
 Freedoom, Tyrian, Commander Keen, Cave Story and more) and the games in your own folders; **Guess It** is a
 film, series and actor quiz from TMDB; **Poker** is Texas Hold'em at a 3D table, each phone holding its own cards.
 
-### 📺 Live TV and Sport
-IPTV (Xtream or M3U, several lists) with guide, preview, catch-up and channel groups; the films and
-series of your list appear as sources; a Sport screen for live events.
+### 📺 MegaIPTV, MegaSport and MultiView
+- **MegaIPTV** — your IPTV lists (Xtream or M3U, several of them) as Home-style rows: Live TV with Last played first, then your groups, Movies and Series. In the player: the channels as small tiles over the picture, previous / next, last channels, catch-up and *From start* from the server's archive; choose which rows show and in what order.
+- **MegaSport** — live scores of every sport (live, today, coming up), league tables and your favourite teams and leagues. Each match shows the streams of your sport add-ons and the IPTV channel that shows it; *Remind me* on one that has not started.
+- **MultiView** — two to four channels and streams in one picture: the tile under the cursor is the one you hear, OK plays it alone. At most one IPTV channel (a provider serves one connection), the others live streams of your sport add-ons. Needs ffmpeg — on CoreELEC / LibreELEC the *ffmpeg tools* add-on of their repository.
 
 ### 📱 Your phone does the typing
 - **Set up on phone** — scan a QR code and set up accounts, add-ons, API keys, collections and the look from your phone.
@@ -118,6 +133,8 @@ series of your list appear as sources; a Sport screen for live events.
 
 ### 🎨 Make it yours
 - **Light, Dark and Dim** themes; your own wallpaper with colours that follow it.
+- **Three sets of letters** — Barlow, Poppins and Fira Sans, with an outline over pictures; every description shows whole lines. Words in a script they lack come in English from TMDB, never as boxes.
+- **Subtitles in the same letters**, in four sizes.
 - **MegaNexus Ambient** — a Google TV-style screensaver with clock, weather and calendar widgets, over your picture, a slideshow or a video sent from your phone.
 
 ### 🖥️ Your own media
@@ -137,7 +154,7 @@ Plex, Jellyfin / Emby and local or network drives — your own copy of a title i
 > proxy carries on as before. The switch clears the pictures Kodi kept for the old path and loads them once more.
 
 ### 🔐 Backup and privacy
-- **Backup in one file** — everything, or everything *except* sign-ins, passwords, user names and API keys (safe to hand on). Restore sets up a new device in a minute.
+- **Backup in one file** — everything (settings and keys, accounts, add-ons and music sources, profiles, the Library and its sections, Continue Watching, your channels' lists, MegaSport's favourites and reminders, the look and the subtitles'), or everything *except* sign-ins, passwords, user names and API keys (safe to hand on). Restore sets up a new device in a minute.
 - Passwords and keys stay on your device and never appear in logs or problem reports.
 
 
@@ -153,7 +170,7 @@ Windows, Linux or macOS. A debrid account is recommended for fast streams.
 3. **Add-ons → Install from repository → MegaNexus Repository → Video add-ons → MegaNexus Hub**.
 4. The interface, skin and screensaver install themselves. When Kodi asks to keep the MegaNexus skin, answer **Yes**.
 
-**Or from the zip:** download **`MegaNexus-Complete-9.1.7.zip`** from
+**Or from the zip:** download **`MegaNexus-Complete-9.2.0.zip`** from
 [Releases](https://github.com/MegaNexusMediaPlayer/MegaNexus/releases/latest) (not GitHub's
 "Source code" archive) → **Add-ons → Install from zip file**.
 
@@ -162,7 +179,7 @@ More in [docs/INSTALL.md](docs/INSTALL.md).
 ## ⚙️ First steps
 
 1. **HUB Settings → Set up on phone** → scan the QR code (same Wi-Fi).
-2. Sign in to **Nuvio** or **Stremio** to bring your add-ons over — or paste add-on links yourself.
+2. Sign in to **Nuvio** (scan its QR code, confirm on nuvio.tv/link) or **Stremio** to bring your add-ons over — or paste add-on links yourself.
 3. Add your **debrid** key and any API keys you like (each links to where you get it).
 4. **Save & start MegaNexus.** Then save a backup — restoring it sets up any new device in a minute.
 
@@ -242,30 +259,6 @@ films itself.
 - 🐞 Found a bug? **HUB Settings → Help & diagnostics → Report a problem** sends it with the Kodi log (personal data removed), or open a **[GitHub issue](https://github.com/MegaNexusMediaPlayer/MegaNexus/issues)**.
 - 🛠️ Want to help? See **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 - ☕ Like it? **[Buy me a coffee on Ko-fi](https://ko-fi.com/master100janovic)** — optional; MegaNexus is free for personal use.
-
-## 🍎 Next goal: an Apple TV-inspired MegaNexus
-
-<p align="center">
-  <img src="docs/assets/apple-tv-goal-home.jpg" alt="Apple TV home screen (tvOS 26): the title in big over the whole screen" width="49%">
-  <img src="docs/assets/apple-tv-goal-app.jpg" alt="The redesigned Apple TV app (tvOS 26): poster cards and Top 10 rows" width="49%"><br>
-  <sub>The look we are aiming for — Apple TV with tvOS 26. Images: Apple, shown for inspiration only.</sub>
-</p>
-
-Hi everyone! 👋
-
-I'm starting a new development goal to bring a complete **Apple TV-inspired experience** to Kodi through MegaNexus.
-
-The vision is a clean, premium interface with an Apple TV-style home screen, beautiful content artwork, immersive
-collections, modern navigation, and a smooth, polished user experience.
-
-🎯 **Funding goal: $100**
-
-Your support will help fund development, testing, and refinement of this new visual experience.
-If you'd like to help make this happen and see MegaNexus evolve even further, consider supporting the project on
-**[Ko-fi](https://ko-fi.com/master100janovic)**.
-
-Every contribution makes a difference. Thank you for supporting independent development and being part of the
-MegaNexus community! ❤️
 
 ## 📄 License
 
